@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Kudus Log</title>
+  <link>https://yourdomain.com/</link>
+  <description>Teaching, learning, and getting mildly lost in Central Java.</description>
+
+  <item>
+    <title>Starting the log</title>
+    <link>https://yourdomain.com/#welcome</link>
+    <guid>https://yourdomain.com/#welcome</guid>
+    <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+    <description>This is the first post. Short updates, a photo when there's one worth sharing, and not much else.</description>
+  </item>
+
+</channel>
+</rss>
