@@ -26,7 +26,7 @@ const posts = [
     id: "welcome",
     date: "2026-09-02",
     title: "My First Post",
-    tags:,
+    tags:["update", "salatiga"],
     html: `
       <p>
         Hey! I made a blog, I'll start here by porting over my latest post from Instagram. Stay tuned for more. .
