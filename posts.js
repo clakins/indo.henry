@@ -49,8 +49,9 @@ const posts = [
       <p>
         I've really enjoyed my time here and I will be coming back, but I miss my students that I haven't even met yet. I feel responsible for my work and I'm proud of that. We'll see if the grass is browner once I need to lock in.
       </p>
-    `}
-    {
+    `
+  },
+  {
     id: "welcome",
     date: "2026-09-02",
     title: "My First Post",
