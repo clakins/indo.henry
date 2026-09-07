@@ -23,11 +23,10 @@
 
 const posts = [
   {
-    
-    id: "welcome",
-    date: "2026-09-02",
+    id: "salatiga-getaway",
+    date: "2026-09-05",
     title: "Time to Get Away (from Salatiga)",
-    tags:["update", "salatiga"],
+    tags: ["update", "salatiga"],
     html: `
       <img class="post-photo" src="photos/IMG_4673.jpg" alt="Placeholder example photo">
       <p class="post-photo-caption">A view of terraced rice fields from our Jeep tour.</p>
@@ -52,10 +51,10 @@ const posts = [
     `
   },
   {
-    id: "welcome",
+    id: "first-post",
     date: "2026-09-02",
     title: "My First Post",
-    tags:["update", "salatiga"],
+    tags: ["update", "salatiga"],
     html: `
       <p>
         Hey! I made a blog, I'll start here by porting over my latest post from Instagram. Stay tuned for more.
@@ -63,7 +62,7 @@ const posts = [
       <img class="post-photo" src="photos/IMG_4349.jpg" alt="Placeholder example photo">
       <p class="post-photo-caption">Photo of Mt. Merbabu out the van window, something pleasing about this picture I think.</p>
       <p>
-        Updates: Found a big ass mountain I really want to climb. Some things never change. I'm currently in Salatiga for language training and it's a ridiculously beautiful mountain town in Central Java. Told my Colorado friend it reminds me of Indonesian Boulder. Classes are long and I spend the nights with my friends, so I don't have a ton of time to myself, but I'm glad to be with my friends here. 10 more days and I'll head back to my teaching site. My sister asked if I'm doing ok, so I told her this. Honestly, it's hard. Adjusting to a new country away from everything I know is like work. And I'm in a phase where I have to put my head down and do hard, tedious work. But it's work that gets me closer to a goal, so it's work that I know I have to do. So yes I'm ok, thanks! More soon.
+        Updates: Found a big ass mountain I really want to climb. Some things never change. I’m currently in Salatiga for language training and it’s a ridiculously beautiful mountain town in Central Java. Told my Colorado friend it reminds me of Indonesian Boulder. Classes are long and I spend the nights with my friends, so I don’t have a ton of time to myself, but I’m glad to be with my friends here. 10 more days and I’ll head back to my teaching site. My sister asked if I’m doing ok, so I told her this. Honestly, it’s hard. Adjusting to a new country away from everything I know is like work. And I’m in a phase where I have to put my head down and do hard, tedious work. But it’s work that gets me closer to a goal, so it’s work that I know I have to do. So yes I’m ok, thanks! More soon.
       </p>
     `
   }
