@@ -38,7 +38,7 @@ const posts = [
       </p>
       <p>
         On the plus side, the cafeteria operates in the form of a roadside local kitchen. Instead of processed frozen food, it's home-cooked by someone's grandma who sets up here stove and a stool and cooks chickens right in front of you. It's a home-cooked meal every day. 
-      <p>
+      </p>
       <p>
         Beyond school, there's a lot of differences. No one walks here, it's all mopeds. If you tell someone you're walking more than 5 minutes to go somewhere, they look at you like you're crazy. The moped transportation system is so efficient here I can call the moped equivalent of an Uber, have it arrive in 2 minutes, pay the driver the equivalent of $1, and weave through traffic to any destination in the city within 15 minutes. How major cities in the US have not adopted this system is beyond me. The flip side of that is that pollution from hundreds of thousands of mopeds (pretty much every person over the age of 14) is rough. I'm hoping the rainy season dampens some of the smoke, but its accepted here that pollution is ubiquitous. 
       </p>
