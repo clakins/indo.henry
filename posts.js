@@ -32,29 +32,30 @@ const posts = [
       <p class="post-photo-caption">My first class! Man I hope they like me.</p>
       <p>
         Yesterday was my first day of class as a teacher. What a weird feeling to be on the other side. It's hard, probably harder than being a student. After seeing an Indonesian classroom, I'm struck by the differences between it and an America one. I figured this would be a good chance to do some general cultural comparison so everyone back home knows what it's like here so far. Obviously, this is based purely on opinion and observation, and I have a shockingly surface-level grasp so far on how life works here. But I wanted to share my initial thoughts so I can compare them to my thoughts at the end. 
-      <p>
+      </p>
       <p>
         Indonesian students stay in their classroom and rotate students. I can't for the life of me figure out why this is a good idea and I honestly feel bad for the students who have to sit in one chair with the same group of 40 all day with nothing but a couple thirty minute breaks of freedom. It also means that teacher's can't set up or decorate their classrooms, giving the whole thing a rather sterile feel. 
-      <p>
+      </p>
       <p>
         On the plus side, the cafeteria operates in the form of a roadside local kitchen. Instead of processed frozen food, it's home-cooked by someone's grandma who sets up here stove and a stool and cooks chickens right in front of you. It's a home-cooked meal every day. 
       <p>
       <p>
         Beyond school, there's a lot of differences. No one walks here, it's all mopeds. If you tell someone you're walking more than 5 minutes to go somewhere, they look at you like you're crazy. The moped transportation system is so efficient here I can call the moped equivalent of an Uber, have it arrive in 2 minutes, pay the driver the equivalent of $1, and weave through traffic to any destination in the city within 15 minutes. How major cities in the US have not adopted this system is beyond me. The flip side of that is that pollution from hundreds of thousands of mopeds (pretty much every person over the age of 14) is rough. I'm hoping the rainy season dampens some of the smoke, but its accepted here that pollution is ubiquitous. 
-      <p>
+      </p>
       <p>
         People here seem happier (or at least more good-natured) than in the US. This one is hard to quantify. Many of the same problems afflicting the US are as bad or worse here. Wealth inequality and rising prices are making some cities unlivable and incomes have not increased (for reference, the average yearly income in Kudus is 40 million rupia, or 2500 dollars, the currency conversion rate is 17,000:1). But, even with all of this, people seem positive. Maybe it's the bias of being an American and being treated differently, I can't get around that, but people here are social and buy each other dinner and bring back gifts. They go out of their way to maintain social appearances in a way that seems both strangely unhealthy and incredibly pure of heart. I haven't deciphered it yet. 
-      <p>
+      </p>
       <img class="post-photo" src="photos/IMG_5085.jpg" alt="Placeholder example photo">
       <p class="post-photo-caption">A restaurant today where I met yet more happy people.</p>
       <p>
         *Update: I read an account from a previous Fulbright, who noted that people don't complain here. I think that sums it up pretty well. People may not be happy, but communal social norms dictate that putting on a face is better than vocalizing your problems. I can't yet tell if it's a positive or negative thing. Are people ignoring a problem and suffering because of it? Or does keeping your problems to yourself protect your mindset and keep you going? I think it's not a toxic bottling-up so much as a choice to accept hardship but choose to focus on better things. I haven't gotten past the surface level of it yet.  
-      <p>
+      </p>
       <img class="post-photo" src="photos/squat-toilet.jpg" alt="Placeholder example photo">
       <p class="post-photo-caption">No imagination necessary here.</p>
       <p>
         Last difference here. Western toilets are rare and squat toilets are the norm. No toilet paper, no bidet, just some water in a bucket next to you. Enough said. Makes me think of Kerouac's "dirty azzhole" passage from Big Sur. 
-
+      </p>
+      <p>
         Lots more to learn, but I'm feeling better about it. Kudus is starting to feel like home. I walked through my neighborhood yesterday and sat down for coffee with three new friends. We talked for an hour. I made friends with the cashier at the restaurant and a husband and wife selling coconuts on the side of the road. Friendly people. More to come, salamat malam.
       </p>
     `
