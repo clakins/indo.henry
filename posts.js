@@ -22,7 +22,46 @@
 // ---------------------------------------------------------------
 
 const posts = [
-    {
+  {
+    id: "firstweek",
+    date: "2026-09-20",
+    title: "Startup",
+    tags: ["update", "kudus"],
+    html: `
+      <img class="post-photo" src="photos/IMG_5115.jpg" alt="Placeholder example photo">
+      <p class="post-photo-caption">My school! They literally run it like the avy.</p>
+      <p>
+        I'm starting to feel like I can actually do this. It's been a good couple of days. I had my first lesson planning session with my co-teachers on Friday, and it went well. They seem open to new ideas and I can tell they care about their students. We planned out the coming week, but I had to explain to them what "crap hitting the fan" meant and how likely it was to happen as we get used to this co-teaching system. Tomorrow I have my first real class. I hope I like it because I will have about 1200 more to teach after this one!
+      </p>
+      <p>
+        In case you don't follow my school's Instagram and haven't seen the videos (@smkwisudhakaryakudus, I highly recommend it), yesterday morning was the Nautical Sciences student graduation. Think of a high school pep rally, but everyone is in full naval dress uniforms and martial arts are heavily involved. I was honestly completely unprepared for this event, so I'll give a quick synopsis and hopefully it conveys how culturally rich and entirely unique it was. 
+      </p>
+      <p>
+        Once were were all seated (us being teachers, parents, younger students, and "men from industry" which I can only assume means they were fairly important Indonesian shipping magnates), the students were lined up in drill formation and went through the classic national anthem and Pancasila (similar to saying pledge of allegiance, I think?) routine. It's all very official and disciplined; picture a military boarding school in the US. What broke that similarity for me was the dance routine that came next. I don't know much about it, but its a traditional dance called Caping Ngancak (hat dance or something like that) This dance is probably at least four or five hundred years old; the age of the culture here is incredible (sidenote, mom am I using semicolons correctly?).
+      </p>
+      <p>
+        After that, we got a 20 minute maritime demonstration in which student re-enacted at-sea firefighting (with full hoses and oxygen tanks), abandon ship procedures, and a water rescue. Keep in mind, all of this was wrapped up in a Titanic theme, complete with actors playing Jack and Rose and "My Heart Will Go On" playing in the background. I can't make this up. Really pulled at my heartstrings. The captain also pretended to down with his ship, clutching his heart and falling dead behind the ship's wheel.
+      </p>
+      <p>
+        There's an old Javanese martial art here called Pencak Silat, which is supposedly what the Indonesians used to fight the Dutch when they arrived. Where it differs from  martial arts I'm familiar with is in the mystical aspect that can supposedly repel attacks and protect you from injury. A few students who train in Pencak Silat came out with cinder blocks for a live demo. One kid smashed three of them clean through with his elbow. The next kid placed suspended himself across two chairs (sort of like and H with him as the center bar). Others put three cinder blocks on his chest (which was suspended in mid-air, just his shoulders and legs on the chair), and proceeded to smash the cinder blocks on him with a sledgehammer. He got up unphased and ran off.
+      </p>
+      <p>
+        My personal favorite part was the marching band. It's reminiscent of high school marching band shows you'd see at halftime of a football game, but everyone is in feathered headdress, there are eight acrobatic acts going on simultaneously, and two drummers are running around dressed as walruses. And the sound was genuinely unreal. I won't lie I had chills. I'll get a video out eventually for you to see.
+      </p>
+      <p>
+        At the end, every person in the school, students, parents, and teachers, got together for a flash mob to a popular Indonesian song. Luckily, my friends taught me this one in Salatiga, so everyone was impressed that I knew the moves. For all of my friends who I went line dancing with back in Arizona, I thought of you. it was crazy nostalgic. 
+      </p>
+      <p>
+        Overall a very rewarding experience and the local news guy interviewed me afterward. There's genuinely no subtlety here.
+      </p>
+      <p>
+        After the ceremony, I headed to Semarang to meet my friends. The highlight of my time there was definitely the temple of Sam Poo Kang (yes, I laughed) which is a reconstruction of a Chinese temple area originally established by Zheng He, the Chinese naval explorer. I was pleasantly surprised at how peaceful the temple was and we were lucky enough to observe Chinese worshippers coming to burn incense. 
+
+        I've been writing this post over the past couple days, so hopefully it sums up everything that has happened. Longform writing is difficult and uncomfortable, and I find myself trying to emulate other people's voices because I haven't found my own yet. So thank you for the support so far, I hope these are fun to read. Sampai jumpa!
+      </p>
+    `
+  },
+  {
     id: "backinkudus",
     date: "2026-09-15",
     title: "School's In",
