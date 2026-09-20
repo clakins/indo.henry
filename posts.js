@@ -58,7 +58,7 @@ const posts = [
       </p>
       <img class="post-photo" src="photos/IMG_5225.jpg" alt="Placeholder example photo">
       <p class="post-photo-caption">The main temple in the complex at Semarang, three others are not pictured.</p>
-      <img class="post-photo" src="photos/IMG_5224.jpg" alt="Placeholder example photo">
+      <img class="post-photo" src="photos/IMG_5226.jpg" alt="Placeholder example photo">
       <p class="post-photo-caption">A super tuff pic from our professional temple photoshoot.</p>
       <p>
         After the ceremony, I headed to Semarang (about a 2 hour bus ride) to meet my friends. The highlight of my time there, aside from the reunion with my Fulbright friends, was definitely the temple of Sam Poo Kang (yes, I laughed) which is a reconstruction of a Chinese temple area originally established by Zheng He, the Chinese naval explorer. I was pleasantly surprised at how peaceful the temple was and we were lucky enough to observe Chinese worshippers coming to burn incense. 
