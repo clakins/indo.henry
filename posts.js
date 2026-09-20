@@ -42,7 +42,7 @@ const posts = [
       <p>
         After that, we got a 20 minute maritime demonstration in which student re-enacted at-sea firefighting (with full hoses and oxygen tanks), abandon ship procedures, and a water rescue. Keep in mind, all of this was wrapped up in a Titanic theme, complete with actors playing Jack and Rose and "My Heart Will Go On" playing in the background. I can't make this up. Really pulled at my heartstrings. The captain also pretended to down with his ship, clutching his heart and falling dead behind the ship's wheel.
       </p>
-      <img class="post-photo" src="photos/IMG_5142.jpeg" alt="Placeholder example photo">
+      <img class="post-photo" src="photos/IMG_5142.jpg" alt="Placeholder example photo">
       <p class="post-photo-caption">Part of the Pencak Silat Demonstration.</p>
       <p>
         There's an old Javanese martial art here called Pencak Silat, which is supposedly what the Indonesians used to fight the Dutch when they arrived. Where it differs from  martial arts I'm familiar with is in the mystical aspect that can supposedly repel attacks and protect you from injury. A few students who train in Pencak Silat came out with cinder blocks for a live demo. One kid smashed three of them clean through with his elbow. The next kid placed suspended himself across two chairs (sort of like and H with him as the center bar). Others put three cinder blocks on his chest (which was suspended in mid-air, just his shoulders and legs on the chair), and proceeded to smash the cinder blocks on him with a sledgehammer. He got up unphased and ran off.
@@ -56,9 +56,9 @@ const posts = [
       <p>
         Overall a very rewarding experience and the local news guy interviewed me afterward. There's genuinely no subtlety here.
       </p>
-      <img class="post-photo" src="photos/IMG_5225.jpeg" alt="Placeholder example photo">
+      <img class="post-photo" src="photos/IMG_5225.jpg" alt="Placeholder example photo">
       <p class="post-photo-caption">The main temple in the complex at Semarang, three others are not pictured.</p>
-      <img class="post-photo" src="photos/IMG_5224.jpeg" alt="Placeholder example photo">
+      <img class="post-photo" src="photos/IMG_5224.jpg" alt="Placeholder example photo">
       <p class="post-photo-caption">A super tuff pic from our professional temple photoshoot.</p>
       <p>
         After the ceremony, I headed to Semarang (about a 2 hour bus ride) to meet my friends. The highlight of my time there, aside from the reunion with my Fulbright friends, was definitely the temple of Sam Poo Kang (yes, I laughed) which is a reconstruction of a Chinese temple area originally established by Zheng He, the Chinese naval explorer. I was pleasantly surprised at how peaceful the temple was and we were lucky enough to observe Chinese worshippers coming to burn incense. 
