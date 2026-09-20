@@ -28,7 +28,7 @@ const posts = [
     title: "Startup",
     tags: ["update", "kudus"],
     html: `
-      <img class="post-photo" src="photos/IMG_5115.jpg.jpeg" alt="Placeholder example photo">
+      <img class="post-photo" src="photos/IMG_5115.jpg" alt="Placeholder example photo">
       <p class="post-photo-caption">My school! They literally run it like the Navy.</p>
       <p>
         I'm starting to feel like I can actually do this. It's been a good couple of days. I had my first lesson planning session with my co-teachers on Friday, and it went well. They seem open to new ideas and I can tell they care about their students. We planned out the coming week, but I had to explain to them what "crap hitting the fan" meant and how likely it was to happen as we get used to this co-teaching system. Tomorrow I have my first real class. I hope I like it because I will have about 1200 more to teach after this one! We're starting with teaching about self-introductions, and I'll also have the chance to tell my English Corner class (once a week special topic) about Arizona and my family back home.
