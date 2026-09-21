@@ -27,6 +27,6 @@ const wire = [
     id: "welcome-wire",
     timestamp: "2026-09-20T18:45",
     text: "Starting this mini feed for quick thoughts and photos, longform will stay in the Feed. Also working on a way to subscribe to emails, stay tuned",
-    photo: "photos/englishcorner.jpg"
+    photo: "photos/englishcorner.JPG"
   }
 ];
