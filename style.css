@@ -150,6 +150,42 @@ a:hover { color: var(--paddy); }
   margin: -0.75rem 0 1rem;
 }
 
+/* ---------- Wire ---------- */
+
+.wire {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+.wire-entry {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.wire-entry:first-child { padding-top: 0; }
+.wire-entry:last-child { border-bottom: none; }
+
+.wire-time {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+
+.wire-photo {
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid var(--rule);
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.wire-text {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
 /* ---------- Standalone pages (about/now) ---------- */
 
 .page {

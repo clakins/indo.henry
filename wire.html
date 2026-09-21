@@ -3,9 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kudus Log</title>
-<meta name="description" content="Notes and photos from a year teaching in Central Java.">
-<link rel="alternate" type="application/rss+xml" title="Kudus Log" href="feed.xml">
+<title>Wire — Kudus Log</title>
+<meta name="description" content="Quick photos and short thoughts, timestamped as they happen.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,10 +12,10 @@
 <header class="site-head">
   <div class="site-head-inner">
     <a class="site-title" href="index.html">Kudus Log</a>
-    <p class="site-tagline">My time as a Fulbright ETA in Kudus, Indonesia.</p>
+    <p class="site-tagline">Teaching, learning, and getting mildly lost in Central Java.</p>
     <nav class="site-nav">
       <a href="index.html">Feed</a>
-      <a href="wire.html">Wire</a>
+      <a href="wire.html" class="active">Wire</a>
       <a href="now.html">Now</a>
       <a href="about.html">About</a>
       <a href="feed.xml">RSS</a>
@@ -24,15 +23,15 @@
   </div>
 </header>
 
-<main id="feed" class="feed">
-  <!-- posts are injected here by main.js -->
+<main id="wire" class="wire">
+  <!-- wire entries are injected here by wire.js -->
 </main>
 
 <footer class="site-foot">
-  <p>Site built using Claude and Microsoft Visual Studio. <a href="https://github.com/">source</a></p>
+  <p>Built by hand, from Kudus. <a href="https://github.com/">source</a></p>
 </footer>
 
-<script src="posts.js"></script>
-<script src="main.js"></script>
+<script src="wire-data.js"></script>
+<script src="wire.js"></script>
 </body>
 </html>
