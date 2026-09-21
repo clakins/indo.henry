@@ -17,10 +17,16 @@
 // ---------------------------------------------------------------
 
 const wire = [
+  // {
+  //   id: "__",
+  //   timestamp: "2026-__-__T__:__",
+  //   text: "____",
+  //   photo: "photos/____.jpg"
+  // },
   {
     id: "welcome-wire",
     timestamp: "2026-09-20T18:45",
-    text: "Starting this mini feed for quick thoughts and photos, longform will stay in the Feed",
-    photo: "photos/example.jpg"
+    text: "Starting this mini feed for quick thoughts and photos, longform will stay in the Feed. Also working on a way to subscribe to emails, stay tuned",
+    photo: "photos/englishcorner.jpg"
   }
 ];
