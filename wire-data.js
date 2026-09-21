@@ -20,7 +20,7 @@ const wire = [
   {
     id: "welcome-wire",
     timestamp: "2026-09-20T18:45",
-    text: "Starting a second feed for the small stuff — a photo, a passing thought, nothing that needs a full post.",
+    text: "Starting this mini feed for quick thoughts and photos, longform will stay in the Feed",
     photo: "photos/example.jpg"
   }
 ];
