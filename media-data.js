@@ -4,7 +4,7 @@
 // here automatically the next time you publish.
 
 const media = [
-  { id: "englishcorner.JPG", file: "photos/englishcorner.JPG", type: "image", timestamp: "2026-09-21T18:24:48" },
+{ id: "englishcorner.JPG", file: "photos/englishcorner.JPG", type: "image", timestamp: "2026-09-21T18:24:48" },
   { id: "example.jpg", file: "photos/example.jpg", type: "image", timestamp: "2026-09-03T00:11:44" },
   { id: "IMG_4349.jpg", file: "photos/IMG_4349.jpg", type: "image", timestamp: "2026-09-04T19:57:35" },
   { id: "IMG_4583.jpg", file: "photos/IMG_4583.jpg", type: "image", timestamp: "2026-09-07T20:59:19" },
