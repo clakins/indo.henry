@@ -4,6 +4,7 @@
 // here automatically the next time you publish.
 
 const media = [
+  { id: "Call to Prayer 9.23.mp3", file: "photos/Call to Prayer 9.23.mp3", type: "audio", timestamp: "2026-09-23T06:48:18" },
 { id: "IMG_5312.JPG", file: "photos/IMG_5312.JPG", type: "image", timestamp: "2026-09-22T06:26:26" },
   { id: "IMG_5314.JPG", file: "photos/IMG_5314.JPG", type: "image", timestamp: "2026-09-22T06:26:26" },
 { id: "englishcorner.JPG", file: "photos/englishcorner.JPG", type: "image", timestamp: "2026-09-21T18:24:48" },
