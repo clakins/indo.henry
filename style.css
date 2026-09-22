@@ -277,6 +277,47 @@ a:hover { color: var(--paddy); }
   color: var(--muted);
 }
 
+.embeddable-buttondown-form {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.embeddable-buttondown-form label {
+  width: 100%;
+  font-size: 0.8rem;
+  color: var(--ink);
+}
+
+.embeddable-buttondown-form input[type="email"] {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--indigo);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--indigo);
+  cursor: pointer;
+}
+.embeddable-buttondown-form input[type="submit"]:hover {
+  background: var(--indigo);
+  color: var(--paper);
+}
+
 /* ---------- Mobile ---------- */
 
 @media (max-width: 560px) {
