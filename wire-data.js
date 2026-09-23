@@ -26,7 +26,7 @@ const wire = [
   {
     id: "fourth-wire",
     timestamp: "2026-09-23T19:10",
-    text: "My neighborhood looked nice today. There's a Japanese sense to it from certain directions." 
+    text: "My neighborhood looked nice today. There's a Japanese sense to it from certain directions.",
     photo: "photos/IMG_5350.jpg"
   },
   {
