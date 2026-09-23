@@ -31,7 +31,7 @@ function renderMediaItem(item) {
 }
 
 function renderMedia() {
-  const el = document.getElementById("media-rail");
+  const el = document.getElementById("media-rail-items");
   if (!el) return;
 
   const sorted = [...media].sort((a, b) => b.timestamp.localeCompare(a.timestamp));

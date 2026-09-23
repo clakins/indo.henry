@@ -40,8 +40,9 @@ a:hover { color: var(--paddy); }
 }
 
 .site-head-inner {
-  max-width: 680px;
+  max-width: 980px;
   margin: 0 auto;
+  padding-left: 6.5rem;
 }
 
 .site-title {
@@ -165,6 +166,13 @@ a:hover { color: var(--paddy); }
 .main-layout .feed {
   max-width: none;
   padding: 2.5rem 0 4rem;
+}
+
+.media-rail-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 1.25rem;
 }
 
 .main-divider {
