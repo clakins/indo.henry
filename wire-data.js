@@ -24,6 +24,17 @@ const wire = [
   //   photo: "photos/____.jpg"
   // },
   {
+    id: "fourth-wire",
+    timestamp: "2026-09-23T19:10",
+    text: "My neighborhood looked nice today. There's a Japanese sense to it from certain directions." 
+    photo: "photos/IMG_5350.jpg"
+  },
+  {
+    id: "third-wire",
+    timestamp: "2026-09-23T19:03",
+    text: "Today I had my first Karate practice. And I will definitely be going back. I was taught by an English teacher at my school, Pak Joko, who is a third degree black belt. He is someone I really look up to, worldly and wise. I felt like I was back in a Taekwondo class when I was 10; it's funny to see which memories have been hiding all that time. We talked about spirituality and exorcisms and karma and what it means to truly practice a religion. I think I have a lot to learn from him."
+  },
+  {
     id: "second-wire",
     timestamp: "2026-09-23T10:17",
     text: "Having an anti-climactic 'come to God' moment. No hangover, no questionable life choices. But I'm curious and wondering if my life would be richer if I was more spiritual. I've always believed in fate and a reason that things happen. But, I haven't made it a formal practice and I think I would like to. Time to go shopping for a religion. So far, I've downloaded the Qur'an, the Bhagavad Gita, What the Buddha Taught, and The World's Religions by Huston Smith. Updates to come."
