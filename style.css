@@ -42,7 +42,7 @@ a:hover { color: var(--paddy); }
 .site-head-inner {
   max-width: 980px;
   margin: 0 auto;
-  padding-left: 8.5rem;
+  padding-left: 8.0rem;
 }
 
 .site-title {
