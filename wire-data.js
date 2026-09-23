@@ -24,9 +24,14 @@ const wire = [
   //   photo: "photos/____.jpg"
   // },
   {
+    id: "second-wire",
+    timestamp: "2026-09-23T10:17",
+    text: "Having an anti-climactic 'come to God' moment. No hangover, no questionable life choices. But I'm curious and wondering if my life would be richer if I was more spiritual. I've always believed in fate and a reason that things happen. But, I haven't made it a formal practice and I think I would like to. Time to go shopping for a religion. So far, I've downloaded the Qur'an, the Bhagavad Gita, What the Buddha Taught, and The World's Religions by Huston Smith. Updates to come."
+  }
+  {
     id: "welcome-wire",
     timestamp: "2026-09-20T18:45",
-    text: "Starting this mini feed for quick thoughts and photos, longform will stay in the Feed. Also working on a way to subscribe to emails, stay tuned",
+    text: "Starting this mini feed for quick thoughts and photos, longform will stay in the Feed. Also working on a way to subscribe to emails, stay tuned.",
     photo: "photos/englishcorner.JPG"
   }
 ];
