@@ -31,7 +31,10 @@ const posts = [
       <img class="post-photo" src="photos/IMG_5329.JPG" alt="Placeholder example photo">
       <p class="post-photo-caption">My TV works!</p>
       <p>
-       I definitely spoke too soon in that last post. This is really, really tough. I honestly can't even begin to understand how teachers make careers out of this. Any job I have ever worked has not been half as stressful, consuming, and emotionally draining as 4.5 hours of back-to-back English classes. Realizing I had nine more months of this really demoralized me at the end of the first day. 
+      **Some housekeeping updates first! I got bored and put a ton of time into telling Claude to add things to the code for this website. The biggest change is there is now a subscribe tab at the top of the page, courtesy of a service called Buttondown. I'm bored of making "NEW BLOG POST!!!" Instagram stories, so now you can just subscribe with your email address and you'll get my new posts in our inbox. Let me know if it works! Elsewhere, there's now a "Wire" page which is just quick thoughts and photos I have during the day. Theres a "Media Feed" where I can post audio clips and photos that don't fit anywhere else. And, I updated the "Now" page with links to my Spotify playlist. Open to suggestions too about what you want to see!**
+      </p>
+      <p>
+       I definitely spoke too soon in that last post. This whole thing is really, really tough. I honestly can't even begin to understand how teachers make careers out of this. Any job I have ever worked has not been half as stressful, consuming, and emotionally draining as 4.5 hours of back-to-back English classes. Realizing I had nine more months of this really demoralized me at the end of the first day. 
       </p>
       <p>
       But now that it's the end of the week, I'm not feeling quite so bad. There's a rhythm to it, and right now I can see it but I don't have it yet. As far as this year goes, right now is pretty much the hardest it will be. I have no experience, no emotional connection to the students yet, not trust or bond built with them, and zero experience with my co-teachers. I genuinely believe that every day will make some progress towards each of those and that will make it easier. 
