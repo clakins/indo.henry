@@ -59,17 +59,16 @@ const posts = [
     title: "Startup",
     tags: ["update", "kudus"],
     html: `
-      <img class="post-photo" src="photos/IMG_5329.JPG" alt="Placeholder example photo">
-      <p class="post-photo-caption">My TV works!</p>
-      <p>
-      I accidentally deleted this post and had to redo it so sorry no photos.
-      </p>
+      <img class="post-photo" src="photos/IMG_5226.jpg" alt="Placeholder example photo">
+      <p class="post-photo-caption">A super tuff photo we got in Semarang.</p>
       <p>
        I'm starting to feel like I can actually do this. It's been a good couple of days. I had my first lesson planning session with my co-teachers on Friday, and it went well. They seem open to new ideas and I can tell they care about their students. We planned out the coming week, but I had to explain to them what "crap hitting the fan" meant and how likely it was to happen as we get used to this co-teaching system. Tomorrow I have my first real class. I hope I like it because I will have about 1200 more to teach after this one!
       </p>
       <p>
       In case you don't follow my school's Instagram and haven't seen the videos (@smkwisudhakaryakudus, I highly recommend it), yesterday morning was the Nautical Sciences student graduation. Think of a high school pep rally, but everyone is in full naval dress uniforms and martial arts are heavily involved. I was honestly completely unprepared for this event, so I'll give a quick synopsis and hopefully it conveys how culturally rich and entirely unique it was. 
       </p>
+      <img class="post-photo" src="photos/IMG_5115.jpg" alt="Placeholder example photo">
+      <p class="post-photo-caption">I was not joking when I said they run this place like the Navy.</p>
       <p>
       Once were were all seated (us being teachers, parents, younger students, and "men from industry" which I can only assume means they were fairly important Indonesian shipping magnates), the students were lined up in drill formation and went through the classic national anthem and Pancasila (similar to saying pledge of allegiance, I think?) routine. It's all very official and disciplined; picture a military boarding school in the US. What broke that similarity for me was the dance routine that came next. I don't know much about it, but its a traditional dance called Caping Ngancak (hat dance or something like that) This dance is probably at least four or five hundred years old; the age of the culture here is incredible (sidenote, mom am I using semicolons correctly?).
       </p>
@@ -88,6 +87,8 @@ const posts = [
       <p>
       Overall a very good day and the local news guy interviewed me afterward. There's genuinely no subtlety here.
       </p>
+      <img class="post-photo" src="photos/IMG_5225.jpg" alt="Placeholder example photo">
+      <p class="post-photo-caption">Zheng He's Temple from the inside looking out.</p>
       <p>
       After the ceremony, I headed to Semarang to meet my friends. The highlight of my time there was definitely the temple of Sam Poo Kang (yes, I laughed) which is a reconstruction of a Chinese temple area originally established by Zheng He, the Chinese naval explorer. I was pleasantly surprised at how peaceful the temple was and we were lucky enough to observe Chinese worshippers coming to burn incense. 
       </p>
