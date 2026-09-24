@@ -1,4 +1,4 @@
-// Renders the `media` array (from media-data.js) into #media-rail.
+// Renders the `media` array (from media-data.js) into #media-rail-items.
 
 const MEDIA_MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 
@@ -22,9 +22,14 @@ function renderMediaItem(item) {
     mediaHtml = `<video class="media-visual" controls src="${item.file}"></video>`;
   }
 
+  const titleHtml = item.title
+    ? `<div class="media-item-title">${item.title}</div>`
+    : "";
+
   return `
     <div class="media-item">
       ${mediaHtml}
+      ${titleHtml}
       <div class="media-time">${formatMediaTimestamp(item.timestamp)}</div>
     </div>
   `;

@@ -163,6 +163,13 @@ a:hover { color: var(--paddy); }
   align-items: start;
 }
 
+.media-item-title {
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+
 .main-layout .feed {
   max-width: none;
   padding: 2.5rem 0 4rem;
