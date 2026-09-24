@@ -28,7 +28,7 @@ const posts = [
     title: "Harder Than You Think",
     tags: ["update", "kudus"],
     html: `
-      <img class="post-photo" src="photos/IMG_5329.jpg" alt="Placeholder example photo">
+      <img class="post-photo" src="photos/IMG_5329.JPG" alt="Placeholder example photo">
       <p class="post-photo-caption">My TV works!</p>
       <p>
        I definitely spoke too soon in that last post. This is really, really tough. I honestly can't even begin to understand how teachers make careers out of this. Any job I have ever worked has not been half as stressful, consuming, and emotionally draining as 4.5 hours of back-to-back English classes. Realizing I had nine more months of this really demoralized me at the end of the first day. 
