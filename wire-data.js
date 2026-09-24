@@ -24,6 +24,12 @@ const wire = [
   //   photo: "photos/____.jpg"
   // },
   {
+    id: "fifth-wire",
+    timestamp: "2026-09-24T16:45",
+    text: "The only thing that is unqualifiedly good is extended vision, the enlargement of one’s understanding of the ultimate nature of things (a quote from my new book about religions that I liked)",
+  },
+  
+  {
     id: "fourth-wire",
     timestamp: "2026-09-23T19:10",
     text: "My neighborhood looked nice today. There's a Japanese sense to it from certain directions. Goodbye 16:9 photos, I got bored of them so here's a 5:4 image until I get bored of that too and go to 4:3.",
