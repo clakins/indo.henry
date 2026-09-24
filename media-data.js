@@ -4,9 +4,9 @@
 // exists here.
 
 const media = [
-  { id: "Call to Prayer 9.23.mp3", file: "media/Call to Prayer 9.23.mp3", type: "audio", timestamp: "2026-09-23T06:48:18", title: "" },
-  { id: "IMG_5206 Large.jpeg", file: "media/IMG_5206 Large.jpeg", type: "image", timestamp: "2026-09-20T22:18:35", title: "" },
-  { id: "IMG_5312.JPG", file: "media/IMG_5312.JPG", type: "image", timestamp: "2026-09-22T06:26:26", title: "" },
-  { id: "IMG_5314.JPG", file: "media/IMG_5314.JPG", type: "image", timestamp: "2026-09-22T06:26:26", title: "" }
+{ id: "Call to Prayer 9.23.mp3", file: "media/Call to Prayer 9.23.mp3", type: "audio", timestamp: "2026-09-23T06:48:18", title: "Call to Prayer 9.22" },
+  { id: "IMG_5206 Large.jpeg", file: "media/IMG_5206 Large.jpeg", type: "image", timestamp: "2026-09-20T22:18:35", title: "stopped at the donut shop in Semarang" },
+  { id: "IMG_5312.JPG", file: "media/IMG_5312.JPG", type: "image", timestamp: "2026-09-22T06:26:26", title: "a Confucian temple near me" },
+  { id: "IMG_5314.JPG", file: "media/IMG_5314.JPG", type: "image", timestamp: "2026-09-22T06:26:26", title: "alleyway in the old merchant quarter" }
 ];
 
