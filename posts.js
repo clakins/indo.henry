@@ -62,7 +62,7 @@ const posts = [
       <img class="post-photo" src="photos/IMG_5329.JPG" alt="Placeholder example photo">
       <p class="post-photo-caption">My TV works!</p>
       <p>
-      **I accidentally deleted this post and had to redo it so sorry no photos :( **
+      I accidentally deleted this post and had to redo it so sorry no photos.
       </p>
       <p>
        I'm starting to feel like I can actually do this. It's been a good couple of days. I had my first lesson planning session with my co-teachers on Friday, and it went well. They seem open to new ideas and I can tell they care about their students. We planned out the coming week, but I had to explain to them what "crap hitting the fan" meant and how likely it was to happen as we get used to this co-teaching system. Tomorrow I have my first real class. I hope I like it because I will have about 1200 more to teach after this one!
