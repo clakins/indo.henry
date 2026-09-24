@@ -26,9 +26,8 @@ const wire = [
   {
     id: "fifth-wire",
     timestamp: "2026-09-24T16:45",
-    text: "The only thing that is unqualifiedly good is extended vision, the enlargement of one’s understanding of the ultimate nature of things (a quote from my new book about religions that I liked)",
+    text: "The only thing that is unqualifiedly good is extended vision, the enlargement of one's understanding of the ultimate nature of things (a quote from my new book about religions that I liked)",
   },
-  
   {
     id: "fourth-wire",
     timestamp: "2026-09-23T19:10",
