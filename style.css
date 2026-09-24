@@ -71,9 +71,10 @@ a:hover { color: var(--paddy); }
 
 .site-nav {
   font-family: var(--sans);
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   display: flex;
   gap: 1.25rem;
+  font-weight: bold;
 }
 
 .site-nav a {
