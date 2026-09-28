@@ -69,7 +69,7 @@ const posts = [
         <p>
         Additionally, we were one of more than 300 people on the summit today, which felt just as crowded as it sounds. The main route up (Selo) is a rapidly crumbling dirt and dust track which appears to be almost completely unmaintained. You get the sense that the parks department saw the monetary opportunity of charging locals and tourists for climbing permits, set up a hiking route, then proceeded to do none of the extra work necessary to regulate and maintain it (nuances of the Indonesian parks department be damned, sorry if you're reading this). 
         </p>
-        <img class="post-photo" src="photos/IMG_5617(1).JPG" alt="Placeholder example photo">
+        <img class="post-photo" src="photos/IMG_5617 (1).JPG" alt="Placeholder example photo">
         <p class="post-photo-caption">Monkeys in the trees at Pos 3.</p>
         <p>
         Again, I’m lucky to live in a country with an exceptional national parks system, where decades of PSAs have taught people to remove their trash, stay on the trail, etc. But seeing no efforts to implement any of these policies in Indonesia makes me sad. And I worry for the other national parks that are home to protected or endangered species. The only animals I saw on Merbabu were the monkeys, and they seem very content with the status quo and the snacks they steal out of bags. 

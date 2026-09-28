@@ -4,7 +4,7 @@
 // exists here.
 
 const media = [
-  { id: "IMG_5460.JPG", file: "media/IMG_5460.JPG", type: "image", timestamp: "2026-09-28T21:10:30", title: "" },
+{ id: "IMG_5460.JPG", file: "media/IMG_5460.JPG", type: "image", timestamp: "2026-09-28T21:10:30", title: "" },
   { id: "IMG_5692.JPG", file: "media/IMG_5692.JPG", type: "image", timestamp: "2026-09-28T07:12:14", title: "" },
   { id: "IMG_5697.JPG", file: "media/IMG_5697.JPG", type: "image", timestamp: "2026-09-28T07:12:14", title: "" },
 { id: "Call to Prayer 9.23.mp3", file: "media/Call to Prayer 9.23.mp3", type: "audio", timestamp: "2026-09-23T06:48:18", title: "Call to Prayer 9.22" },
