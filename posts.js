@@ -22,7 +22,66 @@
 // ---------------------------------------------------------------
 
 const posts = [
-  {
+    {
+      id: "week2.5",
+      date: "2026-09-28",
+      title: "A Complaint",
+      tags: ["update", "kudus"],
+      html: `
+        <img class="post-photo" src="photos/IMG_5558.JPG" alt="Placeholder example photo">
+        <p class="post-photo-caption">A View of Mt. Sumbing and Mt. Sindoro volcanoes from the peak of Mt. Merbabu.</p>
+        <p>
+        I've been reminding myself how important it is to stay positive and keep a good mindset here, especially in the first few months. But today I’m angry and I want to rant. And negative feelings are just as real as the positive ones. 
+        </p>
+        <p>
+        There’s a lot I love about this country. And I give it credit where it’s due, but the state of environmental protection here is genuinely appalling and depressing for me. 
+        </p>
+        <p>
+        I’ll preface this with the concession that much of this is due to both ingrained culture and lack of economic development, both of which can’t be solved overnight. How do you encourage people to stop burning their trash if your government has no sanitation or waste management infrastructure? So ultimately this is a government and policy problem. But it creates a situation where the level of response and effort does  not match the severity. For some contrast, I’ll intersperse some photos of beautiful landscapes here, but just know that I'm cherry picking and there’s probably a pile of trash right outside the frame. 
+        </p>
+        <p>
+        This weekend I went to Mount Merbabu, one of the tallest peaks in Java and a famous national park here. For context, everything I say here is based on my experience in Java because that’s all I’ve seen of the country. And, for most intents and purposes, Java is what Americans think of when we say Indonesia, since it is the governmental seat and home to the majority of the country’s population. Also, for reference, most of the beautiful photos you’ve seen and keep sending me of Indonesia are far outlying islands and nature preserves hundreds of miles from the big cities and population centers on Java; it’s regrettably not all a romantic tropical island here. 
+        </p>
+        <p>
+        The reality of Java, and one that I realized the extent of when I got to the top of Mt Merbabu, is that the island is entirely covered in a thick layer of smog. My guess (did a little research after the fact and confirmed this) is that it’s a combination of unregulated motorbike pollution, large coal power plants, burning trash, burning fields at the end of the crop season, and probably at least 1% cigarette smoke. 
+        </p>
+        <p>
+        I didn’t realize what it was like to not see blue skies until I moved here. So far we have had 3 intermittent days of heavy wind which drove the smog away long enough to see blue since I arrived a month ago. Most days the sun is a hazy blob like when you see it through a cloud back home. 
+        </p>
+        <img class="post-photo" src="photos/IMG_5560.JPG" alt="Placeholder example photo">
+        <p class="post-photo-caption">Mt. Merapi, an active volcano next to Mt. Merbabu. The haze around the bottom is all smog, not a cloud. It extends as far as you can see in all directions.</p>
+        <p>
+        My sincerest hope since arriving here was that climbing a mountain would be an escape from the man-made and finally a chance to get up to real sky. And it worked! I saw a real sunrise and blue skies and clouds and I’m very thankful. But the views from Mt Merbabu stretch almost to the North and South coasts of Java, and everything I could see below me was covered in smog. 
+        </p>
+        <img class="post-photo" src="photos/LA_Smog.jpg" alt="Placeholder example photo">
+        <p class="post-photo-caption">Internet photo of LA in the 1960s. This is the state of most Indonesian cities today.</p>
+        <p>
+        I’ll add photos because it really is a foreign concept in the US. I think photos of LA in the 60s pre-EPA are the closest we came. That is every square mile of Java, every day. 
+        </p>
+        <p>
+        I haven’t fully processed it, and I won’t even get started on the politics and cultural aspects that contribute to it. But I’m an American and I’m used to seeing blue skies. And when I climb a mountain in Tucson, I can see clear to Mexico. I never realized how lucky I was to have that. I can’t imagine growing up here and not knowing clear skies.
+        </p>
+        <img class="post-photo" src="photos/IMG_5448.JPG" alt="Placeholder example photo">
+        <p class="post-photo-caption">One corner of the camping area at Pos 4. There are hundreds more tents spread around us in close proximity.</p>
+        <p>
+        Another aspect of my hike that hurt to see was the amount of trash and overcrowding on the mountain. A further issue of the lack of waste removal infrastructure is that most people here are used to just throwing their trash wherever they happen to be at the moment. I can’t fault people for this in most places, but I think a National Park is a different story. Especially when you are required to book a local guide and porter to provide your supplies for you. No bathrooms either, so anywhere you go off trail is covered in toilet paper which is clearly not the biodegradable kind. 
+        </p>
+        <p>
+        Additionally, we were one of more than 300 people on the summit today, which felt just as crowded as it sounds. The main route up (Selo) is a rapidly crumbling dirt and dust track which appears to be almost completely unmaintained. You get the sense that the parks department saw the monetary opportunity of charging locals and tourists for climbing permits, set up a hiking route, then proceeded to do none of the extra work necessary to regulate and maintain it (nuances of the Indonesian parks department be damned, sorry if you're reading this). 
+        </p>
+        <img class="post-photo" src="photos/IMG_5617(1).JPG" alt="Placeholder example photo">
+        <p class="post-photo-caption">Monkeys in the trees at Pos 3.</p>
+        <p>
+        Again, I’m lucky to live in a country with an exceptional national parks system, where decades of PSAs have taught people to remove their trash, stay on the trail, etc. But seeing no efforts to implement any of these policies in Indonesia makes me sad. And I worry for the other national parks that are home to protected or endangered species. The only animals I saw on Merbabu were the monkeys, and they seem very content with the status quo and the snacks they steal out of bags. 
+        </p>
+        <img class="post-photo" src="photos/R0006018.jpg" alt="Placeholder example photo">
+        <p class="post-photo-caption">Our hiking crew before the hike. You don't want to see our post-hike photos.</p>
+        <p>
+        So no, this country is not perfect. And I'm sorry I don’t know enough about it to know why it is the way it is. I will do my best to learn. But for now I know that there are things I don’t like, and they make me sad sometimes. And days like this I really miss home. 
+        </p>
+      `
+    },
+    {
     id: "week2",
     date: "2026-09-24",
     title: "Harder Than You Think",
