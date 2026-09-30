@@ -37,7 +37,7 @@ const wire = [
   {
     id: "eighth-wire",
     timestamp: "2026-09-30T19:32",
-    text: "People believe in some strange stuff here. Yesterday I was told my my teacher friend, who has been to the US and is very worldly and well-read, that a girl had been possessed by demons and was insiting on jumping off third-floor bridge at school. Luckily, an older teacher was able to remove the spirit and save her. Wild. It sounds to me like she's bipolar or depressed, but mental health is viewed differently here.",
+    text: "People believe in some strange stuff here. Yesterday I was told by my teacher friend, who has been to the US and is very worldly and well-read, that a girl had been possessed by demons and was insiting on jumping off third-floor bridge at school. Luckily, an older teacher was able to remove the spirit and save her. Wild. It sounds to me like she's bipolar or depressed, but mental health is viewed differently here.",
   },  
   {
     id: "seventh-wire",
