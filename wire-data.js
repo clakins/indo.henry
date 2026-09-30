@@ -24,6 +24,26 @@ const wire = [
   //   photo: "photos/____.jpg"
   // },
   {
+    id: "ninth-wire",
+    timestamp: "2026-09-30T19:33",
+    text: "Today was a good day. I've decided to start acing on my impulses more. Rode past my neighbors and though 'I should go sit with them.' And so I made myself do that and it was a lovely conversation and they gave me a ride to dinner and now I have friends. I'll be doing more of that I think.",
+  },  
+  {
+    id: "eighth-wire",
+    timestamp: "2026-09-30T19:32",
+    text: "People believe in some strange stuff here. Yesterday I was told my my teacher friend, who has been to the US and is very worldly and well-read, that a girl had been possessed by demons and was insiting on jumping off third-floor bridge at school. Luckily, an older teacher was able to remove the spirit and save her. Wild. It sounds to me like she's bipolar or depressed, but mental health is viewed differently here.",
+  },  
+  {
+    id: "seventh-wire",
+    timestamp: "2026-09-30T19:31",
+    text: "'This one is not for the folks at home, sorry to leave mom I had to go.' - lyric from a Fun song I like. Resonating right now.",
+  },  
+  {
+    id: "sixth-wire",
+    timestamp: "2026-09-30T19:29",
+    text: "Had a dream last night about coming home to Phoenix and not recognizing it. Drove down seventh ave and everything was a new apartment building. Salad and go was gone, take 5 oils was redone as a cafe made to look like a 50s service station. It was all pretty and impressive, but sterile and void. Felt like I was trapped and trying to get out.",
+  },
+  {
     id: "fifth-wire",
     timestamp: "2026-09-24T16:45",
     text: "The only thing that is unqualifiedly good is extended vision, the enlargement of one's understanding of the ultimate nature of things (a quote from my new book about religions that I liked)",
