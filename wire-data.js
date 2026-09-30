@@ -32,7 +32,7 @@ const wire = [
   {
     id: "ninth-wire",
     timestamp: "2026-09-30T19:33",
-    text: "Today was a good day. I've decided to start acing on my impulses more. Rode past my neighbors and though 'I should go sit with them.' And so I made myself do that and it was a lovely conversation and they gave me a ride to dinner and now I have friends. I'll be doing more of that I think.",
+    text: "Today was a good day. I've decided to start acing on my impulses more. Rode past my neighbors and thought 'I should go sit with them.' And so I made myself do that and it was a lovely conversation and they gave me a ride to dinner and now I have friends. I'll be doing more of that I think.",
   },  
   {
     id: "eighth-wire",
