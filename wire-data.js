@@ -26,7 +26,7 @@ const wire = [
   {
     id: "tenth-wire",
     timestamp: "2026-09-30T19:38",
-    text: "Why the hell is this Brandon McNulty trying to be my doppelganger. Bleached hair and mustache too. This photo is exactly how I felt when finishing the Tour de Tucson. I was there first, man.",
+    text: "Why the hell is this Brandon McNulty guy trying to be my doppelganger. Bleached hair and mustache too. This photo is exactly how I felt when finishing the Tour de Tucson. I was there first, man.",
     photo: "photos/mcnulty.png",
   },  
   {
