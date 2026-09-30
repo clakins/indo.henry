@@ -24,6 +24,12 @@ const wire = [
   //   photo: "photos/____.jpg"
   // },
   {
+    id: "tenth-wire",
+    timestamp: "2026-09-30T19:38",
+    text: "Why the hell is this Brandon McNulty trying to be my doppelganger. Bleached hair and mustache too. This photo is exactly how I felt when finishing the Tour de Tucson. I was there first, man.",
+    photo: "photos/mcnulty.png",
+  },  
+  {
     id: "ninth-wire",
     timestamp: "2026-09-30T19:33",
     text: "Today was a good day. I've decided to start acing on my impulses more. Rode past my neighbors and though 'I should go sit with them.' And so I made myself do that and it was a lovely conversation and they gave me a ride to dinner and now I have friends. I'll be doing more of that I think.",
