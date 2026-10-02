@@ -230,6 +230,14 @@ a:hover { color: var(--paddy); }
   .media-rail { border-top: 1px solid var(--rule); padding-top: 2rem; }
 }
 
+.media-item-text {
+  font-family: var(--serif);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--ink);
+  margin: 0;
+}
+
 /* ---------- Projects page ---------- */
 
 .projects-layout {
