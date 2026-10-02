@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wire — Indo Henry</title>
-<meta name="description" content="Quick photos and short thoughts, timestamped as they happen.">
+<title>Projects — Indo Henry</title>
+<meta name="description" content="Creative and artistic projects.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
     <p class="site-tagline">My time as a Fulbright ETA in Kudus, Indonesia.</p>
     <nav class="site-nav">
       <a href="index.html">Feed</a>
-      <a href="wire.html" class="active">Wire</a>
+      <a href="projects.html" class="active">Projects</a>
       <a href="now.html">Now</a>
       <a href="about.html">About</a>
       <a href="feed.xml">RSS</a>
@@ -23,15 +23,22 @@
   </div>
 </header>
 
-<main id="wire" class="wire">
-  <!-- wire entries are injected here by wire.js -->
-</main>
+<div class="projects-layout">
+  <aside class="projects-sidebar">
+    <nav id="projects-nav" class="projects-nav">
+      <!-- project links injected by projects.js -->
+    </nav>
+  </aside>
+  <main id="projects-main" class="projects-main">
+    <!-- project sections injected by projects.js -->
+  </main>
+</div>
 
 <footer class="site-foot">
-  <p> <a href="https://github.com/">source</a></p>
+  <p>Built by hand, from Kudus. <a href="https://github.com/">source</a></p>
 </footer>
 
-<script src="wire-data.js"></script>
-<script src="wire.js"></script>
+<script src="projects-data.js"></script>
+<script src="projects.js"></script>
 </body>
 </html>

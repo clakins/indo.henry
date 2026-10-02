@@ -1,4 +1,8 @@
 // Renders the `media` array (from media-data.js) into #media-rail-items.
+// Entries are either file-based (type: "image" | "audio" | "video",
+// auto-added by generate-media.ps1 when you drop a file in /media)
+// or a text-only "note" (type: "note", added by hand — a quick
+// thought with no file attached, same idea as the old Wire feed).
 
 const MEDIA_MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 
@@ -21,15 +25,21 @@ function renderMediaItem(item) {
   } else if (item.type === "video") {
     mediaHtml = `<video class="media-visual" controls src="${item.file}"></video>`;
   }
+  // type === "note" has no file, so mediaHtml stays empty
 
   const titleHtml = item.title
     ? `<div class="media-item-title">${item.title}</div>`
+    : "";
+
+  const textHtml = item.text
+    ? `<p class="media-item-text">${item.text}</p>`
     : "";
 
   return `
     <div class="media-item">
       ${mediaHtml}
       ${titleHtml}
+      ${textHtml}
       <div class="media-time">${formatMediaTimestamp(item.timestamp)}</div>
     </div>
   `;
@@ -42,7 +52,7 @@ function renderMedia() {
   const sorted = [...media].sort((a, b) => b.timestamp.localeCompare(a.timestamp));
 
   if (sorted.length === 0) {
-    el.innerHTML = `<p style="font-family: var(--sans); color: var(--muted); font-size: 0.85rem;">No media yet.</p>`;
+    el.innerHTML = `<p style="font-family: var(--sans); color: var(--muted); font-size: 0.85rem;">Nothing here yet.</p>`;
     return;
   }
 

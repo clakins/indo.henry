@@ -230,40 +230,92 @@ a:hover { color: var(--paddy); }
   .media-rail { border-top: 1px solid var(--rule); padding-top: 2rem; }
 }
 
-/* ---------- Wire ---------- */
+/* ---------- Projects page ---------- */
 
-.wire {
-  max-width: 560px;
+.projects-layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 2.5rem;
+  max-width: 980px;
   margin: 0 auto;
   padding: 2.5rem 1.5rem 4rem;
+  align-items: start;
 }
 
-.wire-entry {
-  padding: 1.5rem 0;
-  border-bottom: 1px solid var(--rule);
+.projects-sidebar {
+  position: sticky;
+  top: 2.5rem;
 }
-.wire-entry:first-child { padding-top: 0; }
-.wire-entry:last-child { border-bottom: none; }
 
-.wire-time {
+.projects-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.projects-nav-link {
   font-family: var(--sans);
-  font-size: 0.78rem;
+  font-size: 0.85rem;
+  color: var(--ink);
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+}
+.projects-nav-link:hover {
+  color: var(--indigo);
+  border-bottom-color: var(--indigo);
+}
+
+.projects-main {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.project-section {
+  scroll-margin-top: 2rem;
+}
+
+.project-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+}
+
+.project-description {
+  font-family: var(--sans);
+  font-size: 0.9rem;
   color: var(--muted);
-  margin-bottom: 0.6rem;
+  margin: 0 0 1.5rem;
 }
 
-.wire-photo {
-  width: 100%;
-  border-radius: 2px;
-  border: 1px solid var(--rule);
-  display: block;
-  margin-bottom: 0.8rem;
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 
-.wire-text {
+.project-image {
   margin: 0;
-  font-size: 1.05rem;
-  line-height: 1.55;
+}
+
+.project-image img {
+  width: 100%;
+  display: block;
+  border: 1px solid var(--rule);
+}
+
+.project-image figcaption {
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 0.4rem;
+}
+
+@media (max-width: 760px) {
+  .projects-layout { grid-template-columns: 1fr; }
+  .projects-sidebar { position: static; }
+  .project-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 /* ---------- Standalone pages (about/now) ---------- */

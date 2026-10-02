@@ -7,7 +7,19 @@ const media = [
 { id: "IMG_5460.JPG", file: "media/IMG_5460.JPG", type: "image", timestamp: "2026-09-28T21:10:30", title: "Mt. Merapi just before sunrise" },
   { id: "IMG_5692.JPG", file: "media/IMG_5692.JPG", type: "image", timestamp: "2026-09-28T07:12:14", title: "L8R app film emulator photo" },
   { id: "IMG_5697.JPG", file: "media/IMG_5697.JPG", type: "image", timestamp: "2026-09-28T07:12:14", title: "Jogjakarta Train Station" },
-{ id: "Call to Prayer 9.23.mp3", file: "media/Call to Prayer 9.23.mp3", type: "audio", timestamp: "2026-09-23T06:48:18", title: "Call to Prayer 9.22" },
+{
+    id: "third-wire",
+    timestamp: "2026-09-23T19:03:00",
+    type: "note",
+    text: "Today I had my first Karate practice. And I will definitely be going back. I was taught by an English teacher at my school, Pak Joko, who is a third degree black belt. He is someone I really look up to, worldly and wise. I felt like I was back in a Taekwondo class when I was 10; it's funny to see which memories have been hiding all that time. We talked about spirituality and exorcisms and karma and what it means to truly practice a religion. I think I have a lot to learn from him."
+  },  
+  {
+    id: "second-wire",
+    timestamp: "2026-09-23T10:17:00",
+    type: "note",
+    text: "I'm curious and wondering if my life would be richer if I was more spiritual. I've always believed in fate and a reason that things happen. But, I haven't made it a formal practice and I think I would like to. Time to go shopping for a religion. So far, I've downloaded the Qur'an, the Bhagavad Gita, What the Buddha Taught, and The World's Religions by Huston Smith. Updates to come."
+  },
+  { id: "Call to Prayer 9.23.mp3", file: "media/Call to Prayer 9.23.mp3", type: "audio", timestamp: "2026-09-23T06:48:18", title: "Call to Prayer 9.22" },
   { id: "IMG_5206 Large.jpeg", file: "media/IMG_5206 Large.jpeg", type: "image", timestamp: "2026-09-20T22:18:35", title: "stopped at the donut shop in Semarang" },
   { id: "IMG_5312.JPG", file: "media/IMG_5312.JPG", type: "image", timestamp: "2026-09-22T06:26:26", title: "a Confucian temple near me" },
   { id: "IMG_5314.JPG", file: "media/IMG_5314.JPG", type: "image", timestamp: "2026-09-22T06:26:26", title: "alleyway in the old merchant quarter" }
