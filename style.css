@@ -232,7 +232,7 @@ a:hover { color: var(--paddy); }
 
 .media-item-text {
   font-family: var(--serif);
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   line-height: 1.5;
   color: var(--ink);
   margin: 0;
