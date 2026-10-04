@@ -21,7 +21,7 @@ const projects = [
   {
       id: "miraclemile",
     title: "Miracle Mile, October 2025",
-    subtitle: "September 2026",
+    subtitle: "<i>September 2026</i>",
     description: "A collection of photographs of surviving motels and signage along the Historic Miracle Mile in Tucson, Arizona. Documented following the demolition of three historic motels by Pima County Community College in the Summer of 2025. 35mm film developed and scanned at the University of Arizona. Originally a project for ART 246.",
     images: [
       { file: "project-photos/hc3.jpg", caption: "" },
