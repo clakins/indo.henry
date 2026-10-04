@@ -326,8 +326,6 @@ a:hover { color: var(--paddy); }
   .project-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
-/* ---------- Project subtitle ---------- */
-
 .project-subtitle {
   font-family: var(--serif);
   font-style: italic;
