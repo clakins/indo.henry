@@ -24,11 +24,29 @@
 const logEntries = [
   {
     id: "entry1",
-    date: "2026-09-25",
-    tag: "book",
+    date: "2026-10-6",
+    tag: "Movies",
+    title: "Apocalypse Now",
+    photo: "photos-log/apocalypse.jpg",
+    description: "Not even finished this one yet and its already a 5. And I haven't even gotten to the part with Kurtz yet. The perfect complement to Heart of Darkness.",
+    url: ""
+  },
+  {
+    id: "entry1",
+    date: "2026-10-5",
+    tag: "Books",
     title: "Lord Jim by Joseph Conrad",
     photo: "photos-log/lordjim.jpg",
     description: "A book I felt I had to read after coming to Indonesia. It's set in Kalimantan, where many of my friends are stationed. I knew Conrad from Heart of Darkness, and this one is a great continuation. Lots of similar atmosphere, especially the tall-tale feeling, but with a different moral dilemma at the core. I will update this when I'm done putting together my thoughts on it. I don't think there are many parallels between my time in Indonesia and Lord Jim's, but it's still worth analyzing.",
+    url: ""
+  },
+  {
+    id: "entry2",
+    date: "2026-10-02",
+    tag: "Albums",
+    title: "Songs from the Big Chair by Tears for Fears",
+    photo: "photos-log/bigchair.jpg",
+    description: "I was unaware of how good they are beyong their big songs. This is on par with New Order for me. 4.5/5",
     url: ""
   }
 ];
