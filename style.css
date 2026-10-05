@@ -422,6 +422,125 @@ a:hover { color: var(--paddy); }
 }
 .now-list li { margin-bottom: 0.6rem; }
 
+/* ---------- Log page ---------- */
+
+.log-layout {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 2.5rem;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+  align-items: start;
+}
+
+.log-sidebar {
+  position: sticky;
+  top: 2.5rem;
+}
+
+.log-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.log-nav-link {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--ink);
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+}
+.log-nav-link:hover,
+.log-nav-link.active {
+  color: var(--indigo);
+  border-bottom-color: var(--indigo);
+}
+
+/* Feed view */
+
+.log-feed {
+  display: flex;
+  flex-direction: column;
+}
+
+.log-feed-item {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 1.25rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.log-feed-item:first-child { padding-top: 0; }
+.log-feed-item:last-child { border-bottom: none; }
+
+.log-feed-photo {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 1px solid var(--rule);
+  cursor: zoom-in;
+}
+
+.log-feed-date {
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-bottom: 0.3rem;
+}
+
+.log-feed-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+}
+
+.log-feed-description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0 0 0.5rem;
+}
+
+.log-feed-link {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+}
+
+/* Library view */
+
+.log-library {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.log-library-tile {
+  margin: 0;
+}
+
+.log-library-tile img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 1px solid var(--rule);
+  display: block;
+}
+
+.log-library-tile figcaption {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+}
+
+@media (max-width: 760px) {
+  .log-layout { grid-template-columns: 1fr; }
+  .log-sidebar { position: static; }
+  .log-feed-item { grid-template-columns: 80px 1fr; }
+  .log-library { grid-template-columns: repeat(2, 1fr); }
+}
+
 /* ---------- Footer ---------- */
 
 .site-foot {

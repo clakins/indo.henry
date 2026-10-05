@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Projects — Indo Henry</title>
-<meta name="description" content="Creative and artistic projects.">
+<title>Log — Indo Henry</title>
+<meta name="description" content="Books, movies, albums, and websites worth sharing.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,29 +15,29 @@
     <p class="site-tagline">My time as a Fulbright ETA in Kudus, Indonesia.</p>
     <nav class="site-nav">
       <a href="index.html">Feed</a>
-      <a href="projects.html" class="active">Projects</a>
-      <a href="log.html">Log</a>
+      <a href="projects.html">Projects</a>
+      <a href="log.html" class="active">Log</a>
       <a href="about.html">About</a>
     </nav>
   </div>
 </header>
 
-<div class="projects-layout">
-  <aside class="projects-sidebar">
-    <nav id="projects-nav" class="projects-nav">
-      <!-- project links injected by projects.js -->
+<div class="log-layout">
+  <aside class="log-sidebar">
+    <nav id="log-nav" class="log-nav">
+      <!-- "All" + tag links injected by log.js -->
     </nav>
   </aside>
-  <main id="projects-main" class="projects-main">
-    <!-- project sections injected by projects.js -->
+  <main id="log-main" class="log-main">
+    <!-- feed or library view injected by log.js -->
   </main>
 </div>
 
 <footer class="site-foot">
-  <p><a href="https://github.com/">source</a></p>
+  <p>Built with Claude AI. <a href="https://github.com/">source</a></p>
 </footer>
 
-<script src="projects-data.js"></script>
-<script src="projects.js"></script>
+<script src="log-data.js"></script>
+<script src="log.js"></script>
 </body>
 </html>
