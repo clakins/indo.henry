@@ -25,7 +25,7 @@ const posts = [
     {
       id: "week4",
       date: "2026-10-06",
-      title: "My First Post",
+      title: "Wish You Were Here",
       tags: ["update", "kudus"],
       html: `
         <img class="post-photo" src="photos/IMG_5861.JPG" alt="Placeholder example photo">
