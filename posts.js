@@ -43,9 +43,10 @@ const posts = [
         <p>
         Hey! Checked my calendar and its almost been two months here. Hard to believe honestly. So many things I told myself I'd do when I got here, and I haven't even gotten to them yet. This week marks my fourth week in the classroom. Honestly, that was frustrating to realize. I haven't really been able to bond with my students. That's one of the things that draws me most strongly to teaching, the connection and human side of it all. It's something I really enjoyed as a camp counselor, and I can't figure out why I haven't found it yet as a teacher. I think the class sizes make it difficult. And its's hard to connect with someone who only knows the most beginner levels of English.
         </p>
-        <video width="640" height="360" controls autoplay muted loop poster="photos/chicken1.png">
+        <video width="450" height="240" controls autoplay muted loop poster="photos/chicken1.png">
         <source src="photos/chicken.mp4" type="video/mp4">
         </video>
+        <p class="post-photo-caption">My neighbor's chicken, named Brownie.</p>
         <p>
         So I'm working to fix that. If I can't make connections in class, I'll make them outside of it. Thursday will be my first coffee hour (thank you Bulgarian ETA for your inspiration there) and I'm excited to have the chance to talk candidly with students. I also hope to work on creating some sort of advanced English club where we can have real discussions. This is going to be a tough line to walk, but one of my most rewarding classes as a volunteer at Mansfeld Middle in Tucson was the day they discussed the death penalty. Maybe a Big Questions type theme? 
         </p>
