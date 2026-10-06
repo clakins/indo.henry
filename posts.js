@@ -23,6 +23,82 @@
 
 const posts = [
     {
+      id: "week4",
+      date: "2026-10-06",
+      title: "My First Post",
+      tags: ["update", "kudus"],
+      html: `
+        <p>
+        <i>
+        First, some website updates. Hopefully, the newsletter is working now, please let me know! I've combined the Wire into the media feed on the side, so it will now include random photos and quick note I throw in there. There is a new Projects page where I'll show some of the projects past and present I've worked on. Work in Progress at the moment. Also, a new Log page where I'll track the movies, books, and albums I like. Also adding a day tracker at the bottom (and an obligatory disclaimer that this page is not affiliated with Fulbright) so you can see how for I am through my time here. Thanks!*
+        </i>
+        </p>
+        <hr>
+        <p>
+        <i>
+        Another quick note I'm making after finishing this post. This post gets a little raw in that I share opinions and thoughts I have that aren't fully developed. And I like it because it's honestly what I'm thinking right now. But it runs the risk of changing how you perceive me. And you're my friends and family so I care what you think of me. So bear with me here, I'm not sure what I think of being this candid yet.
+        </i>
+        </p>
+        <p>
+        Hey! Checked my calendar and its almost been two months here. Hard to believe honestly. So many things I told myself I'd do when I got here, and I haven't even gotten to them yet. This week marks my fourth week in the classroom. Honestly, that was frustrating to realize. I haven't really been able to bond with my students. That's one of the things that draws me most strongly to teaching, the connection and human side of it all. It's something I really enjoyed as a camp counselor, and I can't figure out why I haven't found it yet as a teacher. I think the class sizes make it difficult. And its's hard to connect with someone who only knows the most beginner levels of English.
+        </p>
+        <p>
+        So I'm working to fix that. If I can't make connections in class, I'll make them outside of it. Thursday will be my first coffee hour (thank you Bulgarian ETA for your inspiration there) and I'm excited to have the chance to talk candidly with students. I also hope to work on creating some sort of advanced English club where we can have real discussions. This is going to be a tough line to walk, but one of my most rewarding classes as a volunteer at Mansfeld Middle in Tucson was the day they discussed the death penalty. Maybe a Big Questions type theme? 
+        </p>
+        <p>
+        As always, I would love to hear your thoughts on all of this. Right now, I'm making everything up as I go. I'm working on a comments section, but for now Whatsapp me or use Instagram DMs. Tomorrow I'm doing a quick cultural presentation about High School in America. I have a new presentation like this every week so let me know what you think and what topics you think I should present. Yes, I made this in an hour and I'm sleep-deprived so bear with me.
+        </p>
+        <p>
+        https://docs.google.com/presentation/d/1XiJEabV1hoFbw87ftjnDcDGfkArPcVxDD51hCHfNEGE/edit?usp=sharing
+        </p>
+        <p>
+        As I hit two months, I really start to have some questions. I question if nine months is really an adequate time for anything. It's long enough that it doesn't feel like a nice vacation or fun break, but is it really long enough to make any sort of impact? I think about this a lot. Especially as someone who applied for Peace Corps as well. One of our program mentors did Peace Corps and is now converting to Islam and marrying and Indonesian woman, so maybe 2 full years really does make a difference. 
+        </p>
+        <p>
+        I honestly don't think I'm meant to be a teacher. I'm totally ok with that. This was never a permanent solution or direction. But, I simply lack the naturally creative brain I think a teacher should have to put together lesson plans and materials. Things just don't connect that way for me. Maybe that changes with time, but I don't mind it. I'm here to work and I'm good at my job, even if it's not easy for me. 
+        </p>
+        <p>
+        I do want to talk a little about my trip to Karimun Jawa. I wrote a lot about it on Sunday but it came across as even more insufferably tour-guidey know-it-all than my Merbabu post, which I was already not happy with. So I did something I told myself I shouldn't do and edited my writing (by deleting all of it and starting over). Here's take two.
+        </p>
+        <p>
+        This past weekend I got to see Karimun. Its a beautiful island chain and it's only about a 1 hour motorbike + 2.5 hour ferry ride from me in Kudus. And wow it's excellent. Some of the most insane white sand beaches I have ever seen. There were tourists there (I saw more white people than I've seen in months, about a dozen), but it was overall a very quiet feeling compared to other more traveled areas. There are a bunch of luxury resorts spread around the island, but I found a small hostel in the middle of town. The owner, Felix (retired mechanical engineer who has long braids, chain-smokes, and only wears flip flops), turned out to be exceedingly nice and also rented me a motorbike to get around (damn, I miss my moped, I hope it's safe in Tucson). So I visited a couple beaches and I'll put the photos below. 
+        </p>
+        <p>
+        Met some barbers from Surabaya and made friends with them. Went to the seafood market and ate an entire fried fish. Even tried one of the eyeballs just to see what it was like. Saw some cool shipwrecks and ate the best mango of my entire life. Seriously, it was so cliche I felt like I was playing a bit. Loved it.
+        </p>
+        <p>
+        Overall, a really nice escape from the city and it proved to me that there are peaceful and beautiful places to be found in Indonesia. I'll be going back.
+        </p>
+        <p>
+        I think two things that are similar around the world are island towns and mountain towns. Walking through Karimun gave me feelings from Avalon or Two Harbors. People are more relaxed, everyone knows each other, and everything's sort of falling apart. Same for the mountain towns in Dieng. Felt like Silverton or Ouray in a strange way. You can feel the altitude and the people feel different. The sun is harsher. 
+        </p>
+        <p>
+        A final thought I had yesterday that I thought was important. I'm pulling this from my journal so if you don't want to know this much information about me, please tell me to leave it out of the blog. I'm testing things here, but I'm still finding the balance of what I want to share. This is a public website, after all. 
+        </p>
+        <p>
+        Anyway, I went back to Muay Thai class yesterday. Man, it's fun. They started letting me spar more (padded helmets, gloves, very safe) and I'm getting whooped constantly. First time I went up against some 15 year old and my nose was bleeding (only slightly) by the end of it. It feels really good to be hopelessly bad at something. Yesterday, the teacher let me stay after class and practice one-on-one. Truly one of the best opportunities I've been given by anyone here so far, I learned a lot from those extra 20 minutes. 
+        </p>
+        <p>
+        A few times during that extra time, I found myself wanting to give in and call it a day. To laugh it off and say that's enough, I'm done. I was tired, class was over, and we were repeating the same drill over and over again. But it was really embarrassing to have that thought. That's the part of me that I want to get past. There's something in me that cringes, acts shy, self-defeats. And it's honestly rampant in my behavior in Indonesia, where everything is all about etiquette and respect and deference and harmony. And I don't have much of a choice here because to act any differently would get me genuinely shunned here.
+        </p>
+        <p>
+        But I'm going to figure out how to get rid of it. So far the only thing that I've found that worked was taking Adderall back in the states. And honestly it turned me into an asshole. But I was really honest and it made me realize how much of what people said to excuse themselves or contextualize was bullshit. Hopefully there's a middle ground to be found. 
+        </p>
+        <p>
+        I think being born in modernity is really hard. It's weird to think that people have to force ourselves to make their lives hard if they want any real struggle. The default of life nowadays has so little friction. I think we run marathons or work 80 hour weeks or stay in difficult relationships because we want a burden to carry. There must be something in the ancient part of our brain that still cherishes that burden. And I wonder if that part of the brain is underserved these days. So Muay Thai is probably not the solution to satisfy that, but it's something that got me thinking. 
+        </p>
+        <p>
+        Alright I'm cutting myself off from the spit-balling. 
+        </p>
+        <p>
+        In other news, I remembered that Coney Island Baby by Lou Reed is my favorite song. I think that Songs From the Big Chair is a 5 star album and so is Wish You Were Here, but Innervisions is a 4.5 star. 
+        </p>
+        <p>
+        I miss Sunnyslope High School. And the feeling of going to Copper Star Coffee in 2022. And Coronado Road. I miss Student Council Music Box. I miss how it felt being a freshman in college when the school still felt big. I miss my room and it's lights. I miss the Shanty and listening to Monster Hospital for the first time. I'm going to go watch Apocalypse Now and continue my transformation into Lord Jim.
+        </p>
+      `
+    },
+    {
       id: "week2.5",
       date: "2026-09-28",
       title: "A Complaint",
