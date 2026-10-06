@@ -28,6 +28,8 @@ const posts = [
       title: "My First Post",
       tags: ["update", "kudus"],
       html: `
+        <img class="post-photo" src="photos/IMG_5861.JPG" alt="Placeholder example photo">
+        <p class="post-photo-caption">Seriously, doesn't this feel like that Neil Young album cover?</p>
         <p>
         <i>
         First, some website updates. Hopefully, the newsletter is working now, please let me know! I've combined the Wire into the media feed on the side, so it will now include random photos and quick note I throw in there. There is a new Projects page where I'll show some of the projects past and present I've worked on. Work in Progress at the moment. Also, a new Log page where I'll track the movies, books, and albums I like. Also adding a day tracker at the bottom (and an obligatory disclaimer that this page is not affiliated with Fulbright) so you can see how for I am through my time here. Thanks!*
@@ -48,7 +50,7 @@ const posts = [
         As always, I would love to hear your thoughts on all of this. Right now, I'm making everything up as I go. I'm working on a comments section, but for now Whatsapp me or use Instagram DMs. Tomorrow I'm doing a quick cultural presentation about High School in America. I have a new presentation like this every week so let me know what you think and what topics you think I should present. Yes, I made this in an hour and I'm sleep-deprived so bear with me.
         </p>
         <p>
-        https://docs.google.com/presentation/d/1XiJEabV1hoFbw87ftjnDcDGfkArPcVxDD51hCHfNEGE/edit?usp=sharing
+        <a href="https://docs.google.com/presentation/d/1XiJEabV1hoFbw87ftjnDcDGfkArPcVxDD51hCHfNEGE/edit?usp=sharing">High School in America Presentation</a>
         </p>
         <p>
         As I hit two months, I really start to have some questions. I question if nine months is really an adequate time for anything. It's long enough that it doesn't feel like a nice vacation or fun break, but is it really long enough to make any sort of impact? I think about this a lot. Especially as someone who applied for Peace Corps as well. One of our program mentors did Peace Corps and is now converting to Islam and marrying and Indonesian woman, so maybe 2 full years really does make a difference. 
@@ -59,15 +61,18 @@ const posts = [
         <p>
         I do want to talk a little about my trip to Karimun Jawa. I wrote a lot about it on Sunday but it came across as even more insufferably tour-guidey know-it-all than my Merbabu post, which I was already not happy with. So I did something I told myself I shouldn't do and edited my writing (by deleting all of it and starting over). Here's take two.
         </p>
+        <img class="post-photo" src="photos/IMG_5773.JPG" alt="Placeholder example photo">
         <p>
         This past weekend I got to see Karimun. Its a beautiful island chain and it's only about a 1 hour motorbike + 2.5 hour ferry ride from me in Kudus. And wow it's excellent. Some of the most insane white sand beaches I have ever seen. There were tourists there (I saw more white people than I've seen in months, about a dozen), but it was overall a very quiet feeling compared to other more traveled areas. There are a bunch of luxury resorts spread around the island, but I found a small hostel in the middle of town. The owner, Felix (retired mechanical engineer who has long braids, chain-smokes, and only wears flip flops), turned out to be exceedingly nice and also rented me a motorbike to get around (damn, I miss my moped, I hope it's safe in Tucson). So I visited a couple beaches and I'll put the photos below. 
         </p>
+        <img class="post-photo" src="photos/IMG_5805.JPG" alt="Placeholder example photo">
         <p>
         Met some barbers from Surabaya and made friends with them. Went to the seafood market and ate an entire fried fish. Even tried one of the eyeballs just to see what it was like. Saw some cool shipwrecks and ate the best mango of my entire life. Seriously, it was so cliche I felt like I was playing a bit. Loved it.
         </p>
         <p>
         Overall, a really nice escape from the city and it proved to me that there are peaceful and beautiful places to be found in Indonesia. I'll be going back.
         </p>
+        <img class="post-photo" src="photos/IMG_5781.JPG" alt="Placeholder example photo">
         <p>
         I think two things that are similar around the world are island towns and mountain towns. Walking through Karimun gave me feelings from Avalon or Two Harbors. People are more relaxed, everyone knows each other, and everything's sort of falling apart. Same for the mountain towns in Dieng. Felt like Silverton or Ouray in a strange way. You can feel the altitude and the people feel different. The sun is harsher. 
         </p>
