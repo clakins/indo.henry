@@ -542,6 +542,20 @@ a:hover { color: var(--paddy); }
 }
 
 /* ---------- Footer ---------- */
+.days-tracker {
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin: 0.75rem 0 0;
+}
+
+.disclaimer {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  margin: 0.4rem 0 0;
+}
 
 .site-foot {
   max-width: 680px;
