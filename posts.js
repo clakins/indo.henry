@@ -46,6 +46,8 @@ const posts = [
         <p>
         So I'm working to fix that. If I can't make connections in class, I'll make them outside of it. Thursday will be my first coffee hour (thank you Bulgarian ETA for your inspiration there) and I'm excited to have the chance to talk candidly with students. I also hope to work on creating some sort of advanced English club where we can have real discussions. This is going to be a tough line to walk, but one of my most rewarding classes as a volunteer at Mansfeld Middle in Tucson was the day they discussed the death penalty. Maybe a Big Questions type theme? 
         </p>
+        <img class="post-photo" src="photos/IMG_5861.JPG" alt="Placeholder example photo">
+        <p class="post-photo-caption">Breafkast this morning. The lady at the restaurant makes the bowl more full each day I come. I predict it will overflow by Friday.</p>
         <p>
         As always, I would love to hear your thoughts on all of this. Right now, I'm making everything up as I go. I'm working on a comments section, but for now Whatsapp me or use Instagram DMs. Tomorrow I'm doing a quick cultural presentation about High School in America. I have a new presentation like this every week so let me know what you think and what topics you think I should present. Yes, I made this in an hour and I'm sleep-deprived so bear with me.
         </p>
