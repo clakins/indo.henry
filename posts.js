@@ -33,7 +33,6 @@ const posts = [
         First, some website updates. Hopefully, the newsletter is working now, please let me know! I've combined the Wire into the media feed on the side, so it will now include random photos and quick note I throw in there. There is a new Projects page where I'll show some of the projects past and present I've worked on. Work in Progress at the moment. Also, a new Log page where I'll track the movies, books, and albums I like. Also adding a day tracker at the bottom (and an obligatory disclaimer that this page is not affiliated with Fulbright) so you can see how for I am through my time here. Thanks!*
         </i>
         </p>
-        <hr>
         <p>
         <i>
         Another quick note I'm making after finishing this post. This post gets a little raw in that I share opinions and thoughts I have that aren't fully developed. And I like it because it's honestly what I'm thinking right now. But it runs the risk of changing how you perceive me. And you're my friends and family so I care what you think of me. So bear with me here, I'm not sure what I think of being this candid yet.
