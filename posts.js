@@ -43,10 +43,13 @@ const posts = [
         <p>
         Hey! Checked my calendar and its almost been two months here. Hard to believe honestly. So many things I told myself I'd do when I got here, and I haven't even gotten to them yet. This week marks my fourth week in the classroom. Honestly, that was frustrating to realize. I haven't really been able to bond with my students. That's one of the things that draws me most strongly to teaching, the connection and human side of it all. It's something I really enjoyed as a camp counselor, and I can't figure out why I haven't found it yet as a teacher. I think the class sizes make it difficult. And its's hard to connect with someone who only knows the most beginner levels of English.
         </p>
+        <video width="640" height="360" controls autoplay muted loop poster="thumbnail.jpg">
+        <source src="movie.mp4" type="video/mp4">
+        </video>
         <p>
         So I'm working to fix that. If I can't make connections in class, I'll make them outside of it. Thursday will be my first coffee hour (thank you Bulgarian ETA for your inspiration there) and I'm excited to have the chance to talk candidly with students. I also hope to work on creating some sort of advanced English club where we can have real discussions. This is going to be a tough line to walk, but one of my most rewarding classes as a volunteer at Mansfeld Middle in Tucson was the day they discussed the death penalty. Maybe a Big Questions type theme? 
         </p>
-        <img class="post-photo" src="photos/IMG_5861.JPG" alt="Placeholder example photo">
+        <img class="post-photo" src="photos/IMG_5732.JPG" alt="Placeholder example photo">
         <p class="post-photo-caption">Breafkast this morning. The lady at the restaurant makes the bowl more full each day I come. I predict it will overflow by Friday.</p>
         <p>
         As always, I would love to hear your thoughts on all of this. Right now, I'm making everything up as I go. I'm working on a comments section, but for now Whatsapp me or use Instagram DMs. Tomorrow I'm doing a quick cultural presentation about High School in America. I have a new presentation like this every week so let me know what you think and what topics you think I should present. Yes, I made this in an hour and I'm sleep-deprived so bear with me.
@@ -67,7 +70,7 @@ const posts = [
         <p>
         This past weekend I got to see Karimun. Its a beautiful island chain and it's only about a 1 hour motorbike + 2.5 hour ferry ride from me in Kudus. And wow it's excellent. Some of the most insane white sand beaches I have ever seen. There were tourists there (I saw more white people than I've seen in months, about a dozen), but it was overall a very quiet feeling compared to other more traveled areas. There are a bunch of luxury resorts spread around the island, but I found a small hostel in the middle of town. The owner, Felix (retired mechanical engineer who has long braids, chain-smokes, and only wears flip flops), turned out to be exceedingly nice and also rented me a motorbike to get around (damn, I miss my moped, I hope it's safe in Tucson). So I visited a couple beaches and I'll put the photos below. 
         </p>
-        <img class="post-photo" src="photos/IMG_5805.JPG" alt="Placeholder example photo">
+        <img class="post-photo" src="photos/IMG_5800.JPG" alt="Placeholder example photo">
         <p>
         Met some barbers from Surabaya and made friends with them. Went to the seafood market and ate an entire fried fish. Even tried one of the eyeballs just to see what it was like. Saw some cool shipwrecks and ate the best mango of my entire life. Seriously, it was so cliche I felt like I was playing a bit. Loved it.
         </p>
