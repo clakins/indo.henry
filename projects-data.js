@@ -18,6 +18,21 @@
 // ---------------------------------------------------------------
 
 const projects = [
+    {
+    id: "springbreak",
+    title: "Big Sur",
+    subtitle: "March 2026",
+    description: "A collection of photographs from a road trip through Big Sur, overlaid with quotes from the epic poem <i>Sea</i> by Jack Kerouac. One of my favorite projects so far and something that holds a deep nostalgia for me.",
+    images: [
+      { file: "project-photos/1.jpg", caption: "" },
+      { file: "project-photos/2.jpg", caption: "" },
+      { file: "project-photos/3.jpg", caption: "" },
+      { file: "project-photos/4.jpg", caption: "" },
+      { file: "project-photos/5.jpg", caption: "" },
+      { file: "project-photos/6.jpg", caption: "" },
+      { file: "project-photos/9.jpg", caption: "" },
+    ]
+  },
   {
     id: "miraclemile",
     title: "Miracle Mile",

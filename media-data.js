@@ -4,6 +4,12 @@
 // exists here.
 
 const media = [
+{
+    id: "prayer-complaint",
+    timestamp: "2026-10-09T17:38:00",
+    type: "note",
+    text: "I honestly don't even mind that my apartment has a mosque loudspeaker pointed right at my window. My complaint is that the imam at this particular mosque knows only one version of the call to prayer and has the most grating, obnoxious voice I have heard so far in this country."
+  },  
 { id: "IMG_5460.JPG", file: "media/IMG_5460.JPG", type: "image", timestamp: "2026-09-28T21:10:30", title: "Mt. Merapi just before sunrise" },
   { id: "IMG_5692.JPG", file: "media/IMG_5692.JPG", type: "image", timestamp: "2026-09-28T07:12:14", title: "L8R app film emulator photo" },
   { id: "IMG_5697.JPG", file: "media/IMG_5697.JPG", type: "image", timestamp: "2026-09-28T07:12:14", title: "Jogjakarta Train Station" },
