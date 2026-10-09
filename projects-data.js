@@ -20,7 +20,7 @@
 const projects = [
   {
     id: "springbreak",
-    title: "yosemite",
+    title: "Yosemite",
     subtitle: "March 2026",
     description: "A sunset progression of the Yosemite Valley taken during my Spring Break camping trip. Photos taken on the same dday between 4 and 7pm. Shot on Sigma DP2S.",
     images: [
