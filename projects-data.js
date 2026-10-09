@@ -18,19 +18,31 @@
 // ---------------------------------------------------------------
 
 const projects = [
+  {
+    id: "springbreak",
+    title: "yosemite",
+    subtitle: "March 2026",
+    description: "A sunset progression of the Yosemite Valley taken during my Spring Break camping trip. Photos taken on the same dday between 4 and 7pm. Shot on Sigma DP2S.",
+    images: [
+      { file: "project-photos/yosemite1.jpg", caption: "" },
+      { file: "project-photos/yosemite2.jpg", caption: "" },
+      { file: "project-photos/yosemite3.jpg", caption: "" },
+      { file: "project-photos/yosemite4.jpg", caption: "" },
+    ]
+  },
     {
     id: "springbreak",
     title: "Big Sur",
     subtitle: "March 2026",
     description: "A collection of photographs from a road trip through Big Sur, overlaid with quotes from the epic poem <i>Sea</i> by Jack Kerouac. One of my favorite projects so far and something that holds a deep nostalgia for me.",
     images: [
-      { file: "project-photos/1.jpg", caption: "" },
-      { file: "project-photos/2.jpg", caption: "" },
-      { file: "project-photos/3.jpg", caption: "" },
-      { file: "project-photos/4.jpg", caption: "" },
-      { file: "project-photos/5.jpg", caption: "" },
-      { file: "project-photos/6.jpg", caption: "" },
-      { file: "project-photos/9.jpg", caption: "" },
+      { file: "project-photos/bigsur1.jpg", caption: "" },
+      { file: "project-photos/bigsur2.jpg", caption: "" },
+      { file: "project-photos/bigsur3.jpg", caption: "" },
+      { file: "project-photos/bigsur4.jpg", caption: "" },
+      { file: "project-photos/bigsur5.jpg", caption: "" },
+      { file: "project-photos/bigsur6.jpg", caption: "" },
+      { file: "project-photos/bigsur9.jpg", caption: "" },
     ]
   },
   {
