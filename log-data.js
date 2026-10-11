@@ -27,7 +27,7 @@ const logEntries = [
     date: "2026-10-11",
     tag: "Video",
     title: "How to Change Your Life",
-    photo: "photos-log/superfly.jpg",
+    photo: "",
     description: "A great video I saw on Youtube with some fun ideas. Here are my thoughts I jotted down: 1. Your thoughts are not you! You can view your thoughts as just another thing that your consiousness processes. Viewing negative thoughts as something you interpret, not something that you produce and are responsible for can really change your perspective. 2. Events have no context. You choose to define them as good or bad. Realizing this choice gives you power over those events.",
     url: "https://youtu.be/SM93p4dsGyM?si=9v6nSiHRXYQ8FJ6J"
   },
@@ -42,7 +42,7 @@ const logEntries = [
   },
   {
     id: "apocalypsenow",
-    date: "2026-10-6",
+    date: "2026-10-06",
     tag: "Movies",
     title: "Apocalypse Now",
     photo: "photos-log/apocalypse.jpg",
@@ -51,7 +51,7 @@ const logEntries = [
   },
   {
     id: "lordjim",
-    date: "2026-10-5",
+    date: "2026-10-05",
     tag: "Books",
     title: "Lord Jim by Joseph Conrad",
     photo: "photos-log/lordjim.jpg",
