@@ -72,7 +72,7 @@ const posts = [
         <p>
         - Thank you to everyone who texts me and has insights or recommendations for me based on what I write here. It makes me think and I like it. 
         </p>
-        <img class="post-photo" src="photos/englishcorner2.JPG" alt="Placeholder example photo">
+        <img class="post-photo" src="photos/englishcorner2.jpg" alt="Placeholder example photo">
         <p class="post-photo-caption">English Corner Presentation.</p>
         <p>
         - The "High School In America" presentation was a hit. Although the Nerd team was not happy about being called that. Team Jocks won in both meetings. This week, it'll be American Music. Next week, National Parks. So send suggestions of anything you think I should share. 
