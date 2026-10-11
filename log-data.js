@@ -23,7 +23,25 @@
 
 const logEntries = [
   {
-    id: "entry1",
+    id: "changeyourlife",
+    date: "2026-10-11",
+    tag: "Video",
+    title: "How to Change Your Life",
+    photo: "photos-log/superfly.jpg",
+    description: "A great video I saw on Youtube with some fun ideas. Here are my thoughts I jotted down: 1. Your thoughts are not you! You can view your thoughts as just another thing that your consiousness processes. Viewing negative thoughts as something you interpret, not something that you produce and are responsible for can really change your perspective. 2. Events have no context. You choose to define them as good or bad. Realizing this choice gives you power over those events.",
+    url: "https://youtu.be/SM93p4dsGyM?si=9v6nSiHRXYQ8FJ6J"
+  },
+  {
+    id: "superfly",
+    date: "2026-10-10",
+    tag: "Albums",
+    title: "Superfly by Curtis Mayfield",
+    photo: "photos-log/superfly.jpg",
+    description: "Listened to his other album first, but I really liked this one too. Sat outside and listened to it while doing work. Felt like an American.",
+    url: ""
+  },
+  {
+    id: "apocalypsenow",
     date: "2026-10-6",
     tag: "Movies",
     title: "Apocalypse Now",
@@ -32,7 +50,7 @@ const logEntries = [
     url: ""
   },
   {
-    id: "entry1",
+    id: "lordjim",
     date: "2026-10-5",
     tag: "Books",
     title: "Lord Jim by Joseph Conrad",
@@ -41,7 +59,7 @@ const logEntries = [
     url: ""
   },
   {
-    id: "entry2",
+    id: "bigchair",
     date: "2026-10-02",
     tag: "Albums",
     title: "Songs from the Big Chair by Tears for Fears",
