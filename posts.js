@@ -22,6 +22,82 @@
 // ---------------------------------------------------------------
 
 const posts = [
+  {
+      id: "week5",
+      date: "2026-10-11",
+      title: "Seasons",
+      tags: ["update", "kudus"],
+      html: `
+        <img class="post-photo" src="photos/IMG_5978.JPG" alt="Placeholder example photo">
+        <p class="post-photo-caption">Up in the mountain town of Rahtawu.</p>
+        <p>
+        Something that's been on my mind recently. There aren't traditional seasons here so I have no send of the process of time. Rainy season starts in November, but until then the weather is the same as when I arrived. Two months flies by when you have no sense of the days getting shorter or the air getting colder. I miss the crisp feeling in the morning air like nothing else right now. I miss how the sun feels different in October when it's heating up cold air rather than making hot air hotter. So please send photos of seasons and sunsets and home for you. I want to see!
+        </p
+        <p>
+        Some positive thoughts today. 
+        </p
+        <p>
+        I really think this experience can be what I hoped it would be. I wanted to be free from how busy my life was at school, how stressed and pulled in different directions I felt. I wanted a balance of structure and time to pursue things I wanted. I think I'm getting there.
+        </p>
+        <img class="post-photo" src="photos/IMG_5950.JPG" alt="Placeholder example photo">
+        <p class="post-photo-caption">Futsal match with teachers from a different school. I had one shot on goal but it went embarrassingly wide.</p>
+        <p>
+        I find myself feeling free to do the things I want to do more often. I play guitar most days, imperfectly, but making some progress. I have about a hundred random mini projects lined up that I can do in my free time. Everything from layout design, video editing, maps and GIS, indie games I've been wanting to play (Return of the Obra Dinn in particular), and songs I want to make in FL Studio. I go to workout classes for things that genuinely interest me. I read on average a book a week. I watch tv shows I've had on my list forever (The Wire is excellent so far) Not that these weren't things I was doing back home, but they just filled in small gaps once or twice a week. Now they take up all the free time I want to give them. 
+        </p>
+        <p>
+        The potentially negative side of this is that I don't have much of a social life. I've been thinking about this a lot. Two months in and I don't really have many real friends here. I like my teachers but I spend so much time with them at school that I need a break after work.
+        </p>
+        <img class="post-photo" src="photos/coteachers.JPG" alt="Placeholder example photo">
+        <p class="post-photo-caption">Co-Teachers in question. Here's our lesson planning session last week.</p>
+        <p>
+        I actually thought this was going to be an issue so I overbooked myself to swing the pendulum back. Coffee on the mountain with my another teacher yesterday (5 hours and he mostly talked to his friends in Javanese. I got the feeling, one that I get a lot, that he was hoping his friends would think he was cool for hanging out with me), coffee with a bunch of students last night (awesome actually, they were impressed that I could shuffle cards), a 20-mile bike ride this morning with some students, and coffee again tonight with a Education student at the local university. 
+        </p>
+        <p>
+        And this is all well and good, but, honestly (correct comma usage, mom?), I wonder if not having a social life is kind of nice. I'm sure I will inevitably make friends here and I will put in effort to connect, but I don't want this to become the social life I had back home. I think, on average, I spent 5 of 7 nights doing something with other people. And it felt like the norm instead of a privilege. I would be on my phone or thinking of other things in other's company because I got used to having friends always around me. I just stopped appreciating it. And it made me tired. By April, I was falling asleep in bars because I couldn't keep up a social battery.
+        </p>
+        <p>
+        If there's one thing that being here has really taught me, it's that I'm an introvert. I love people, I need people to stay sane. But to recharge I desperately need to be alone. If I don't get that time, I feel exhausted. 
+        </p>
+        <p>
+        So when I think "I need to make friends," I wonder if that comes from a real need, or just the feeling that something is wrong me if I don't constantly have social company. 
+        </p>
+        <p>
+        The extension of this is that I've realized how much I value my own time. I think no one can spend our time as well as we, ourselves, can. So for me to give someone else my time, and to let them spend it as they choose (it's less transactional than just that, but I can't find the exact words), is something I do carefully now. I used to be apologetic for that (I still feel apologetic sometimes), but I try to be honest now. Most people do not know how to use my time. They know how to use their time, and sometimes their way suits my time too. But, I think that I only  trust giving my time fully to my close friends who I know well. I like how small that circle is right now. 
+        </p>
+        <img class="post-photo" src="photos/IMG_5957.JPG" alt="Placeholder example photo">
+        <p class="post-photo-caption">Almost as good as the fresh fish I got on Karimun. Almost.</p>
+        <p>
+        Small Things: 
+        </p>
+        <p>
+        - Thank you to everyone who texts me and has insights or recommendations for me based on what I write here. It makes me think and I like it. 
+        </p>
+        <img class="post-photo" src="photos/englishcorner2.JPG" alt="Placeholder example photo">
+        <p class="post-photo-caption">English Corner Presentation.</p>
+        <p>
+        - The "High School In America" presentation was a hit. Although the Nerd team was not happy about being called that. Team Jocks won in both meetings. This week, it'll be American Music. Next week, National Parks. So send suggestions of anything you think I should share. 
+        </p>
+        <p>
+        - There's a new map view in my "Projects" page that I really like. I'll keep adding to it as I go. 
+        </p>
+        <p>
+        - There's a day tracker at the top so you can see what day of 273 I'm on.
+        </p>
+        <p>
+        - I asked around if anyone knows other foreigners living in Kudus. The only answer I could get was "there's a couple Thai people, I think." So it looks like I'm the only Westerner in town. That makes me the only one for about 30 miles as far as I know. Strange feeling.
+        </p>
+        <p>
+        - Interesting Indonesian things I learned this week:
+          - More people live in Java than in Russia (153 vs 145 million)
+          - Russia is 133 times larger than Java
+          - Australia only has a population of 28 million??
+          - Indonesia's democratic elections are bigger than the US (164 million vs 155 million votes cast)
+        </p>
+        <p>
+        - They're playing some Midwest Emo music in the coffee shop right now. So it does feel a little like October now.
+        </p>
+      `
+    },
     {
       id: "week4",
       date: "2026-10-06",
