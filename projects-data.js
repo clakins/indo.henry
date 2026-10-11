@@ -32,7 +32,6 @@ const projects = [
     location: { name: "Yosemite Valley, California", lat: 37.7459, lng: -119.5936 },
     images: [
       { file: "project-photos/yosemite1.jpg", caption: "" },
-      { file: "project-photos/yosemite2.jpg", caption: "" },
       { file: "project-photos/yosemite3.jpg", caption: "" },
       { file: "project-photos/yosemite4.jpg", caption: "" },
     ]
