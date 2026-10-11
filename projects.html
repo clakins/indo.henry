@@ -28,9 +28,18 @@
       <!-- project links injected by projects.js -->
     </nav>
   </aside>
-  <main id="projects-main" class="projects-main">
-    <!-- project sections injected by projects.js -->
-  </main>
+  <div class="projects-content">
+    <div class="projects-toolbar" role="group" aria-label="Projects view">
+      <button type="button" class="view-btn" data-view="list" aria-pressed="true">List</button>
+      <button type="button" class="view-btn" data-view="map" aria-pressed="false">Map</button>
+    </div>
+    <div id="projects-map" class="projects-map" hidden>
+      <!-- map injected by projects-map.js -->
+    </div>
+    <main id="projects-main" class="projects-main">
+      <!-- project sections injected by projects.js -->
+    </main>
+  </div>
 </div>
 
 <footer class="site-foot">
@@ -41,6 +50,8 @@
 
 <script src="projects-data.js"></script>
 <script src="projects.js"></script>
+<script src="map-data.js"></script>
+<script src="projects-map.js"></script>
 <script src="days-tracker.js"></script>
 </body>
 </html>
