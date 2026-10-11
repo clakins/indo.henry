@@ -47,7 +47,7 @@ const posts = [
         <p>
         The potentially negative side of this is that I don't have much of a social life. I've been thinking about this a lot. Two months in and I don't really have many real friends here. I like my teachers but I spend so much time with them at school that I need a break after work.
         </p>
-        <img class="post-photo" src="photos/coteachers.JPG" alt="Placeholder example photo">
+        <img class="post-photo" src="photos/coteachers.jpg" alt="Placeholder example photo">
         <p class="post-photo-caption">Co-Teachers in question. Here's our lesson planning session last week.</p>
         <p>
         I actually thought this was going to be an issue so I overbooked myself to swing the pendulum back. Coffee on the mountain with my another teacher yesterday (5 hours and he mostly talked to his friends in Javanese. I got the feeling, one that I get a lot, that he was hoping his friends would think he was cool for hanging out with me), coffee with a bunch of students last night (awesome actually, they were impressed that I could shuffle cards), a 20-mile bike ride this morning with some students, and coffee again tonight with a Education student at the local university. 
