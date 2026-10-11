@@ -88,9 +88,17 @@ const posts = [
         </p>
         <p>
         - Interesting Indonesian things I learned this week:
+        </p>
+        <p>
           - More people live in Java than in Russia (153 vs 145 million)
+        </p>
+        <p>
           - Russia is 133 times larger than Java
+        </p>
+        <p>
           - Australia only has a population of 28 million??
+        </p>
+        <p>
           - Indonesia's democratic elections are bigger than the US (164 million vs 155 million votes cast)
         </p>
         <p>
