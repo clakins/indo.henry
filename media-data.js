@@ -5,6 +5,18 @@
 
 const media = [
 {
+    id: "octobersun",
+    timestamp: "2026-10-12T21:16:00",
+    type: "note",
+    text: "Do you know the feeling I mean when I say 'October sun?' I hope so."
+  },  
+  {
+    id: "lessonlearned",
+    timestamp: "2026-10-12T21:18:00",
+    type: "note",
+    text: "If there's one thing I can do it's to do better. Today I stayed late and asked for an extra round with another kid in the Muay Thai class. Got my sh*t rocked to another planet. Awesome."
+  },  
+{
     id: "prayer-complaint",
     timestamp: "2026-10-09T17:38:00",
     type: "note",
