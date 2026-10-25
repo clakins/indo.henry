@@ -22,7 +22,7 @@
 // ---------------------------------------------------------------
 
 const posts = [
-   {
+  {
       id: "week6",
       date: "2026-10-25",
       title: "Creating",
@@ -46,7 +46,7 @@ const posts = [
         I've been thinking a lot recently about creating more than consuming. About curiosity, especially, and spending more time going down rabbit holes to make things just for the sake of it. This one helps me justify doing that more often. I hope this conveys how excited I am; I think I'll remember this as an important time.   
         </p>
       `
-   },
+  },
   {
       id: "week5",
       date: "2026-10-11",
@@ -57,10 +57,10 @@ const posts = [
         <p class="post-photo-caption">Up in the mountain town of Rahtawu.</p>
         <p>
         Something that's been on my mind recently. There aren't traditional seasons here so I have no send of the process of time. Rainy season starts in November, but until then the weather is the same as when I arrived. Two months flies by when you have no sense of the days getting shorter or the air getting colder. I miss the crisp feeling in the morning air like nothing else right now. I miss how the sun feels different in October when it's heating up cold air rather than making hot air hotter. So please send photos of seasons and sunsets and home for you. I want to see!
-        </p
+        </p>
         <p>
         Some positive thoughts today. 
-        </p
+        </p>
         <p>
         I really think this experience can be what I hoped it would be. I wanted to be free from how busy my life was at school, how stressed and pulled in different directions I felt. I wanted a balance of structure and time to pursue things I wanted. I think I'm getting there.
         </p>
@@ -119,7 +119,7 @@ const posts = [
           <li>Russia is 133 times larger than Java</li>
           <li>Australia only has a population of 28 million??</li>
           <li>Indonesia's democratic elections are bigger than the US (164 million vs 155 million votes cast)</li>  
-        </ul
+        </ul>
         <p>
         - They're playing some Midwest Emo music in the coffee shop right now. So it does feel a little like October now.
         </p>
