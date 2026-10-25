@@ -1,7 +1,11 @@
 // Renders the `projects` array (from projects-data.js) into the
 // sidebar nav (#projects-nav) and main scroll area (#projects-main),
 // and powers a click-to-enlarge lightbox with next/prev navigation
-// scoped to each project's own set of images.
+// scoped to each project's own set of items.
+//
+// Items are images by default. Add type: "video" to an item to make
+// it a video: it plays inline in the grid, and also works inside the
+// lightbox carousel.
 
 function renderProjectSection(project, projectIndex) {
   const subtitleHtml = project.subtitle
@@ -13,13 +17,18 @@ function renderProjectSection(project, projectIndex) {
     : "";
 
   const imagesHtml = project.images
-    .map((img, imageIndex) => `
+    .map((item, itemIndex) => {
+      const mediaHtml = item.type === "video"
+        ? `<video src="${item.file}" controls preload="metadata"></video>`
+        : `<img src="${item.file}" alt="${item.caption || project.title}"
+                data-project-index="${projectIndex}" data-image-index="${itemIndex}">`;
+      return `
       <figure class="project-image">
-        <img src="${img.file}" alt="${img.caption || project.title}"
-             data-project-index="${projectIndex}" data-image-index="${imageIndex}">
-        ${img.caption ? `<figcaption>${img.caption}</figcaption>` : ""}
+        ${mediaHtml}
+        ${item.caption ? `<figcaption>${item.caption}</figcaption>` : ""}
       </figure>
-    `)
+    `;
+    })
     .join("");
 
   return `
@@ -59,7 +68,6 @@ let lightboxProjectIndex = 0;
 let lightboxImageIndex = 0;
 
 function setupLightbox() {
-  // Build the overlay once
   if (!document.getElementById("lightbox-overlay")) {
     const overlay = document.createElement("div");
     overlay.id = "lightbox-overlay";
@@ -68,6 +76,7 @@ function setupLightbox() {
       <button class="lightbox-close" aria-label="Close">&times;</button>
       <button class="lightbox-prev" aria-label="Previous">&#8249;</button>
       <img class="lightbox-image" src="" alt="">
+      <video class="lightbox-image lightbox-video" controls style="display:none"></video>
       <button class="lightbox-next" aria-label="Next">&#8250;</button>
       <div class="lightbox-caption"></div>
     `;
@@ -87,7 +96,7 @@ function setupLightbox() {
     });
   }
 
-  // Attach click handlers to every project image
+  // Click handlers go on images only; grid videos play inline instead
   document.querySelectorAll(".project-image img").forEach(img => {
     img.addEventListener("click", () => {
       lightboxProjectIndex = Number(img.dataset.projectIndex);
@@ -104,29 +113,43 @@ function openLightbox() {
 }
 
 function closeLightbox() {
-  document.getElementById("lightbox-overlay").classList.remove("open");
+  const overlay = document.getElementById("lightbox-overlay");
+  overlay.querySelector(".lightbox-video").pause();
+  overlay.classList.remove("open");
   document.body.style.overflow = "";
 }
 
 function showLightboxImage(direction) {
-  const images = projects[lightboxProjectIndex].images;
-  lightboxImageIndex = (lightboxImageIndex + direction + images.length) % images.length;
+  const items = projects[lightboxProjectIndex].images;
+  lightboxImageIndex = (lightboxImageIndex + direction + items.length) % items.length;
   updateLightboxContent();
 }
 
 function updateLightboxContent() {
   const project = projects[lightboxProjectIndex];
-  const img = project.images[lightboxImageIndex];
+  const item = project.images[lightboxImageIndex];
   const overlay = document.getElementById("lightbox-overlay");
-  overlay.querySelector(".lightbox-image").src = img.file;
-  overlay.querySelector(".lightbox-image").alt = img.caption || project.title;
-  overlay.querySelector(".lightbox-caption").textContent = img.caption || "";
+  const imgEl = overlay.querySelector("img.lightbox-image");
+  const videoEl = overlay.querySelector(".lightbox-video");
 
-  const prevBtn = overlay.querySelector(".lightbox-prev");
-  const nextBtn = overlay.querySelector(".lightbox-next");
+  videoEl.pause();
+
+  if (item.type === "video") {
+    imgEl.style.display = "none";
+    videoEl.style.display = "";
+    videoEl.src = item.file;
+  } else {
+    videoEl.style.display = "none";
+    imgEl.style.display = "";
+    imgEl.src = item.file;
+    imgEl.alt = item.caption || project.title;
+  }
+
+  overlay.querySelector(".lightbox-caption").textContent = item.caption || "";
+
   const hasMultiple = project.images.length > 1;
-  prevBtn.style.display = hasMultiple ? "" : "none";
-  nextBtn.style.display = hasMultiple ? "" : "none";
+  overlay.querySelector(".lightbox-prev").style.display = hasMultiple ? "" : "none";
+  overlay.querySelector(".lightbox-next").style.display = hasMultiple ? "" : "none";
 }
 
 renderProjects();

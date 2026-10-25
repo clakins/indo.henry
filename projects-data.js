@@ -25,6 +25,37 @@
 
 const projects = [
   {
+    id: "IndonesiaClip",
+    title: "Indonesia",
+    subtitle: "October 2026",
+    description: "A quick recreation of a video I saw on Instagram with this fun song from a Bollywood (??) movie. Edited in Capcut with my own phone videos.",
+    location: { name: "Kudus, Indonesia", lat: 37.7459, lng: -119.5936 },
+    images: [
+      { file: "project-photos/indo2.mp4", type: "video" caption: "" },
+    ]
+  },
+  {
+    id: "Catalinaclip2",
+    title: "Dithered Catalina",
+    subtitle: "October 2026",
+    description: "Found a cool website that made dithering conversions so I fed one of the Catalina clips in and made this. I think next I would like to set up a dithering pipeline in Touchdesigner, so stay tuned.",
+    images: [
+      { file: "project-photos/catalinadither.mp4", type: "video" caption: "" },
+    ]
+  },
+  {
+    id: "CatalinaClips",
+    title: "Catalina Clips",
+    subtitle: "October 2026",
+    description: "Some videos taken on Catalina Island during a Trans-Catalina Trail backpacking trip with my sister. The videos convey the feeling of a tired Saturday on Catalina Island, a feeling my sister and I jokingly refer to as 'Heat Exhaustion.' This feeling of apathy and dizzy peace is something I found on the island and think of nostalgically now that I don't know when I'll see it again. ",
+    location: { name: "Parsons Beach, California", lat: 37.7459, lng: -119.5936 },
+    images: [
+      { file: "project-photos/CatalinaClip.mp4", type: "video" caption: "" },
+      { file: "project-photos/catalinaclip2.mp4", type: "video" caption: "" },
+      { file: "project-photos/catalinaclip3.mp4", type: "video" caption: "" },
+    ]
+  },
+  {
     id: "yosemite",
     title: "Yosemite",
     subtitle: "March 2026",
