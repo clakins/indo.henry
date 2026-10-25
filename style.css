@@ -247,6 +247,16 @@ a:hover { color: var(--paddy); }
 }
 
 /* ---------- Projects page ---------- */
+.project-image {
+  min-width: 0;
+}
+
+.project-image video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--rule);
+}
 
 .projects-layout {
   display: grid;
