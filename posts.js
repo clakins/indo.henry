@@ -22,6 +22,31 @@
 // ---------------------------------------------------------------
 
 const posts = [
+   {
+      id: "week6",
+      date: "2026-10-25",
+      title: "Creating",
+      tags: ["update", "kudus"],
+      html: `
+        <video class="post-photo" controls preload="metadata" src="photos/CatalinaClip.mp4"></video>
+        <p class="post-photo-caption">Catalina Clip 1.</p>
+        <p>
+        I posted some Catalina videos on my photography account that I'm proud of. Catalina is and has been a really special place for myself and for my relationship with my sister. And there's a very particular feeling I get most strongly on the island that I haven't been able to describe fully. Claire and I call is Heat Exhaustion after a playlist we made of songs we listened to on the island in 2022. 
+        </p>
+        <p>
+        I always thought the playlist expressed the feeling quite well. It comes from Saturdays off at camp. We're only free for those 24 hours, so you spend your whole week getting excited to do something grand and adventurous. When you finally get to Saturday, you're exhausted and all you want to do is sleep. So usually you go find a nice beach somewhere and lay for hours on end with a bluetooth speaker and not enough sunscreen. And the utter peace and tranquility, mixed with lightheadedness in the sun leads to the feeling I'm thinking of. And for the life of me I haven't been able to communicate it to anyone who hasn't been there. Sure you can lie on any beach in the world and get most of that feeling, but something about the remoteness of the island, the looming work ahead of you, and the friends in the same boat out there makes it specific for me. 
+        </p>
+        <p>
+        And why I'm so proud of the videos I posted is that I think they capture that feeling. However you look at it, I think you get a glimpse of what I felt when I made it. 
+        </p>
+        <p>
+        Honestly, that's a huge creative breakthrough for me. I like taking photos and making things because they're aesthetically pleasing to me, and when I make an artistic project I do it to capture and share the beauty I have found. This is the first time I've used something creative to express a feeling. And it's feeble and limited, but I didn't know I could do it until now. 
+        </p>
+        <p>
+        I've been thinking a lot recently about creating more than consuming. About curiosity, especially, and spending more time going down rabbit holes to make things just for the sake of it. This one helps me justify doing that more often. I hope this conveys how excited I am; I think I'll remember this as an important time.   
+        </p>
+      `
+   },
   {
       id: "week5",
       date: "2026-10-11",
