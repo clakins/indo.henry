@@ -29,7 +29,7 @@ const projects = [
     title: "Indonesia",
     subtitle: "October 2026",
     description: "A quick recreation of a video I saw on Instagram with this fun song from a Bollywood (??) movie. Edited in Capcut with my own phone videos.",
-    location: { name: "Kudus, Indonesia", lat: 37.7459, lng: -119.5936 },
+    location: { name: "Kudus, Indonesia", lat: 6.8083, lng: 110.8418 },
     images: [
       { file: "project-photos/indo2.mp4", type: "video" caption: "" },
     ]
@@ -48,7 +48,7 @@ const projects = [
     title: "Catalina Clips",
     subtitle: "October 2026",
     description: "Some videos taken on Catalina Island during a Trans-Catalina Trail backpacking trip with my sister. The videos convey the feeling of a tired Saturday on Catalina Island, a feeling my sister and I jokingly refer to as 'Heat Exhaustion.' This feeling of apathy and dizzy peace is something I found on the island and think of nostalgically now that I don't know when I'll see it again. ",
-    location: { name: "Parsons Beach, California", lat: 37.7459, lng: -119.5936 },
+    location: { name: "Parsons Beach, California", lat: 33.473343, lng: -118.548881},
     images: [
       { file: "project-photos/CatalinaClip.mp4", type: "video" caption: "" },
       { file: "project-photos/catalinaclip2.mp4", type: "video" caption: "" },
