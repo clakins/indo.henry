@@ -5,6 +5,12 @@
 
 const media = [
 {
+    id: "69",
+    timestamp: "2026-10-26T21:16:58",
+    type: "note",
+    text: "Day 69, nice."
+  },  
+{
     id: "octobersun",
     timestamp: "2026-10-12T21:16:00",
     type: "note",
