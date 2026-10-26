@@ -49,7 +49,7 @@ const posts = [
         So why do some teachers not show up to their regularly-scheduled classes? 
         </p>
         <img class="post-photo" src="photos/muria.jpg" alt="Placeholder example photo">
-        <p class="post-photo-caption">Happy Homecoming.</p>
+        <p class="post-photo-caption">The ancient supervolcano next to my town. It was an island when it first blew up and the explosion was so big that it connected itself to Java. Trace the slope at the base and you can get an idea of how big it was originally.</p>
         <p>
         It's really strange. And, so far, it's frustrating sometimes. Maybe I'm just not used to doing things differently, but a lot of this defies my sense of logic. 
         </p>
