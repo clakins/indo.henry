@@ -23,6 +23,64 @@
 
 const posts = [
   {
+      id: "week6-2",
+      date: "2026-10-26",
+      title: "Idiosyncrasies",
+      tags: ["update", "kudus"],
+      html: `
+        <video class="post-photo" controls preload="metadata" src="photos/indo2.mp4"></video>
+        <p class="post-photo-caption">A short video I made.</p>
+        <p>
+        If I see something that I think is wrong, when is it cultural bias and when is something objectively good or bad? And how much do I need to understand a culture before I can make that judgement? I'm picking up on idiosyncrasies I don't understand yet.
+        </p>
+        <p>
+        There's a sense of play and unseriousness here that I really enjoy. People (most, at least) don't seem as career-oriented and workaholic as they do in the US, and its a refreshing break from what I'm used to. Most people are quick to take a joke and always ready to have a conversation. But at the same time, I get the sense that not a ton gets done around here. In the words of my friend here, "stealth bombers aren't made in Indonesia." The priorities seem to be elsewhere. 
+        </p>
+        <p>
+        If the power goes out at school, everyone just goes home. There's not much of an announcement, it's a predetermined decision that there's nothing else to do but leave. Which is fine, except there doesn't seem to be any attempt to solve the problem. There's no backup generator or offline classroom solution. When a problem happens, that's enough for things to grind to a halt. This is pretty much the opposite of what my engineering degree taught me (one professor continued teaching for almost an hour with the lights off after the electricity went out). 
+        </p>
+        <p>
+        The idiosyncrasy in all this is how seriously certain things are taken here. The power structures here are so rigid that I find myself routinely saying things that would lead to a social shunning if I didn't know better. Tripping up and referring to someone older than you with the informal version of "you" basically ensures that that person will not talk to you again. 
+        </p>
+        <p>
+        Other things at school are taken with the same seriousness. Every Monday morning we hold a flag ceremony for almost an hour in which every student in school wears full military dress uniform and stands at attention in the parade ground. If students are late, they do 50 pushups before being allowed to join. Teachers are held to the same standard. They work six days a week and come in on their days off when needed. It's all very impressive and gives the impression that education is taken very seriously. 
+        </p>
+        <p>
+        So why do some teachers not show up to their regularly-scheduled classes? 
+        </p>
+        <img class="post-photo" src="photos/muria.jpg" alt="Placeholder example photo">
+        <p class="post-photo-caption">Happy Homecoming.</p>
+        <p>
+        It's really strange. And, so far, it's frustrating sometimes. Maybe I'm just not used to doing things differently, but a lot of this defies my sense of logic. 
+        </p>
+        <p>
+        There's other things that don't add up either. 
+        </p>
+        <p>
+        Last week I wrote about being psyched to have met friends my age from the University who could speak English and wanted to talk. We hung out again on Tuesday and had a great time talking politics (coming back to this later) and having conversations of real depth.
+        </p>
+        <p>
+        That night reinforced my idea of how nice and social people are here. There's an emotional maturity and social calmness that feels rarer back in the US. So this group seemed promising and we planned a trip to hike a mountain together. That trip (which never ended up happening) devolved into the leader of the friend group cussing out the other ETA in Indonesian and guilt-tripping me for not wanting to hike an unstable cliff face after a heavy rain. So what happened to the emotional maturity and ease I felt? Is there a facade being put on for me because I'm an American? And this was a peek through that facade? If so, that really sucks.
+        </p>
+        <img class="post-photo" src="photos/mcdonalds.jpg" alt="Placeholder example photo">
+        <p class="post-photo-caption">McMushollah (On-property mosque at the Mcdonalds here).</p>
+        <p>
+        Last of the idiosyncrasies. I asked the University students about the most recent presidential election here. I wanted to know why the current president, who is deeply unpopular at the moment (approval ratings being compared to Trump's), was elected with almost 60% of the popular vote just a year and a half ago. They told me he ran Tik Tok ads that made him look "cute" and "huggable," and that the population of Indonesia voted for him out of pity because he had run for president twice before and lost both times. They wanted to give him a "chance." 
+        </p>
+        <p>
+        I just can't understand that. My sample size for this information is admittedly small. But I'm yet to hear information that contradicts what they told me.
+        </p>
+        <p>
+        So I'm at a loss right now. It's early into this so I think I'll understand things better by the end of it. But, living in a place really confronts you with the whole culture, not just the prettiest parts. 
+        </p>
+        <img class="post-photo" src="photos/football.jpg" alt="Placeholder example photo">
+        <p class="post-photo-caption">Happy Homecoming.</p>
+        <p>
+        It rained here today for the first time this season. School was cancelled because the power went out. 
+        </p>
+      `
+  },
+  {
       id: "week6",
       date: "2026-10-25",
       title: "Creating",
