@@ -39,6 +39,8 @@ const posts = [
         <p>
         If the power goes out at school, everyone just goes home. There's not much of an announcement, it's a predetermined decision that there's nothing else to do but leave. Which is fine, except there doesn't seem to be any attempt to solve the problem. There's no backup generator or offline classroom solution. When a problem happens, that's enough for things to grind to a halt. This is pretty much the opposite of what my engineering degree taught me (one professor continued teaching for almost an hour with the lights off after the electricity went out). 
         </p>
+        <img class="post-photo" src="photos/camel.jpg" alt="Placeholder example photo">
+        <p class="post-photo-caption">Average conversation with one of my teacher friends.</p>
         <p>
         The idiosyncrasy in all this is how seriously certain things are taken here. The power structures here are so rigid that I find myself routinely saying things that would lead to a social shunning if I didn't know better. Tripping up and referring to someone older than you with the informal version of "you" basically ensures that that person will not talk to you again. 
         </p>
