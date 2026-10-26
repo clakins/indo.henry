@@ -23,6 +23,24 @@
 
 const logEntries = [
   {
+    id: "shorthistory",
+    date: "2026-10-25",
+    tag: "Books",
+    title: "A Short History of Nearly Everything by Bill Bryson",
+    photo: "photos-log/shorthistory.jpg",
+    description: "Good book, taught me a lot about dinosaurs and how complicated science can be. Worth the read.",
+    url: ""
+  },
+  {
+    id: "goingsolo",
+    date: "2026-10-20",
+    tag: "Books",
+    title: "Going Solo by Roald Dahl",
+    photo: "photos-log/goingsolo.jpg",
+    description: "I read this book as a kid, but my friend recommended I try it again. It's nice to get the perspective of another person who I respect writing about himself when he was my age. It's a nice compass to use. And it makes me feel better about not knowing much of anything. Forgot that the second half is a really convincing anti-war novel. That part was lost on me when I was 12.",
+    url: ""
+  },
+  {
     id: "changeyourlife",
     date: "2026-10-11",
     tag: "Video",
