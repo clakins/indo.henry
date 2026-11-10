@@ -23,7 +23,7 @@
 
 const posts = [
   {
-   id: "week9",
+      id: "week9",
       date: "2026-11-10",
       title: "Thoughts",
       tags: ["update", "kudus"],
