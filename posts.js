@@ -28,9 +28,10 @@ const posts = [
       title: "Thoughts",
       tags: ["update", "kudus"],
       html: `
-        <video class="post-photo" controls preload="metadata" src="photos/indo2.mp4"></video>
-        <p class="post-photo-caption">A short video I made.</p>
-        <p>Some thoughts I've had over the past couple weeks. Interspersed with photos from my trip last weekend to Surakarta (Solo). 
+        <img class="post-photo" src="photos/IMG_5978.JPG" alt="Placeholder example photo">
+        <p class="post-photo-caption">An old Mercedes at our hotel in Solo.</p>
+        <p>
+        Some thoughts I've had over the past couple weeks. Interspersed with photos from my trip last weekend to Surakarta (Solo).
         </p>
         <hr>
         <p>
