@@ -23,67 +23,62 @@
 
 const posts = [
   {
-      id: "week9",
-      date: "2026-11-10",
-      title: "Thoughts",
+      id: "week6-2",
+      date: "2026-10-26",
+      title: "Idiosyncrasies",
       tags: ["update", "kudus"],
       html: `
-        <img class="post-photo" src="photos/IMG_5978.JPG" alt="Placeholder example photo">
-        <p class="post-photo-caption">An old Mercedes at our hotel in Solo.</p>
+        <video class="post-photo" controls preload="metadata" src="photos/indo2.mp4"></video>
+        <p class="post-photo-caption">A short video I made.</p>
         <p>
-        Some thoughts I've had over the past couple weeks. Interspersed with photos from my trip last weekend to Surakarta (Solo).
-        </p>
-        <hr>
-        <p>
-        I'm starting to remember why I like teaching. And that's unquestionably the connections with the students. I really haven't been in a place to explore this since my Common App essay years ago where I talked about the human connection I felt while teaching. 
+        If I see something that I think is wrong, when is it cultural bias and when is something objectively good or bad? And how much do I need to understand a culture before I can make that judgement? I'm picking up on idiosyncrasies I don't understand yet.
         </p>
         <p>
-        For the first few weeks here, I felt like I wasn't getting anywhere with my students. The school system is so strict here that I don't think kids  feel comfortable showing personality or any attitude. They just stay in their lane. When  students all act the same, it's really hard to connect with anyone individually. So I'm slowly trying to get past that and get through to them. 
+        There's a sense of play and unseriousness here that I really enjoy. People (most, at least) don't seem as career-oriented and workaholic as they do in the US, and its a refreshing break from what I'm used to. Most people are quick to take a joke and always ready to have a conversation. But at the same time, I get the sense that not a ton gets done around here. In the words of my friend here, "stealth bombers aren't made in Indonesia." The priorities seem to be elsewhere. 
         </p>
         <p>
-        I'm really lucky to have the Advanced English Club. It finally got off the ground after the other teachers dragged their feet in helping me get it started. Last week, I showed them the game Semantle and now they're all addicted. They want to watch American movies and listen to American songs. They speak English well and they're actually excited to learn about it.
+        If the power goes out at school, everyone just goes home. There's not much of an announcement, it's a predetermined decision that there's nothing else to do but leave. Which is fine, except there doesn't seem to be any attempt to solve the problem. There's no backup generator or offline classroom solution. When a problem happens, that's enough for things to grind to a halt. This is pretty much the opposite of what my engineering degree taught me (one professor continued teaching for almost an hour with the lights off after the electricity went out). 
+        </p>
+        <img class="post-photo" src="photos/camel.jpg" alt="Placeholder example photo">
+        <p class="post-photo-caption">Average conversation with one of my teacher friends.</p>
+        <p>
+        The idiosyncrasy in all this is how seriously certain things are taken here. The power structures here are so rigid that I find myself routinely saying things that would lead to a social shunning if I didn't know better. Tripping up and referring to someone older than you with the informal version of "you" basically ensures that that person will not talk to you again. 
         </p>
         <p>
-        Honestly, I was hoping for that excitement in my classes too, but it hasn't come. There's a lot of apathy here. But if I get 20 hours a week of apathy and 1 hour of advanced club excitement, I think that's a lot better than nothing.
+        Other things at school are taken with the same seriousness. Every Monday morning we hold a flag ceremony for almost an hour in which every student in school wears full military dress uniform and stands at attention in the parade ground. If students are late, they do 50 pushups before being allowed to join. Teachers are held to the same standard. They work six days a week and come in on their days off when needed. It's all very impressive and gives the impression that education is taken very seriously. 
         </p>
         <p>
-        So it's slow going but I'm starting to catch a glimpse of what I loved so much at Emerald Bay. I wish students felt more comfortable showing more of their personality here. That's a failing of the system here.
+        So why do some teachers not show up to their regularly-scheduled classes? 
         </p>
-        <hr>
+        <img class="post-photo" src="photos/muria.jpg" alt="Placeholder example photo">
+        <p class="post-photo-caption">The ancient supervolcano next to my town. It was an island when it first blew up and the explosion was so big that it connected itself to Java. Trace the slope at the base and you can get an idea of how big it was originally.</p>
         <p>
-        There are a good number of personal things I've been thinking about. I'm reading Lonesome Dove and it's making me realize how complicated life is these days. It's hard for me to imagine a world before computers, where anything you wanted to do had to be physically in front of you. Now, there are pretty much endless possibilities to fill your free time. And I loved the idea of that. There are a million things I want to do and learn and I can access all of them through my phone and my computer. 
-        </p>
-        <p>
-        I think that lack of limits has overwhelmed me. Because there are so many things to do, I spend more time thinking about which of them to try first than I do actually tackling any of them. I get really stuck in overthinking and decision paralysis, and I think my computer just reinforces that habit. 
+        It's really strange. And, so far, it's frustrating sometimes. Maybe I'm just not used to doing things differently, but a lot of this defies my sense of logic. 
         </p>
         <p>
-        So that's the issue I'm working to better understand, and I'm curious how other people are trying to solve it. It's taking me a lot of effort to draw myself away from the opportunities and focus on less things. It feels like I'm giving something up and losing a chance. What am I really losing if I was never using that chance anyway?
+        There's other things that don't add up either. 
         </p>
         <p>
-        This had me thinking about money too. My Karate teacher told me that he was unhappiest when he was richest. He said that having more money means having more things to spend it on. And the more things you can spend your money on, the more stress and decision fatigue it causes you. I read somewhere that the average person living today has 100 million times more choices available to make than someone who lives pre-Industrial Revolution. And for all the benefits of that choice and freedom, it means I spend a lot more time thinking than I would like. There must be a balance somewhere of being rich enough to live comfortably but poor enough to have limits. I don't know how to make that happen. But, I worry that a well-paying job brings stress and complications I don't necessarily want. Is that what charity is for? 
+        Last week I wrote about being psyched to have met friends my age from the University who could speak English and wanted to talk. We hung out again on Tuesday and had a great time talking politics (coming back to this later) and having conversations of real depth.
         </p>
         <p>
-        So these days I'm thinking about less. Less choices, less opportunity, less analysis. So far, I have no idea what to do with this, but it's on my mind. 
+        That night reinforced my idea of how nice and social people are here. There's an emotional maturity and social calmness that feels rarer back in the US. So this group seemed promising and we planned a trip to hike a mountain together. That trip (which never ended up happening) devolved into the leader of the friend group cussing out the other ETA in Indonesian and guilt-tripping me for not wanting to hike an unstable cliff face after a heavy rain. So what happened to the emotional maturity and ease I felt? Is there a facade being put on for me because I'm an American? And this was a peek through that facade? If so, that really sucks.
         </p>
-        <hr>
+        <img class="post-photo" src="photos/mcdonalds.jpg" alt="Placeholder example photo">
+        <p class="post-photo-caption">McMushollah (On-property mosque at the Mcdonalds here).</p>
         <p>
-        Am I resisting this place? I sit in my room a lot. And I like it. I watch movies I want to watch. I learn about things that interest me. I don't want to go out and try a ton of new foods. I don't want to go meet a ton of new people. I have time to relax and do what I want. Is there something wrong with that? The problem I see is that is that I can sit at home and work on myself at any time in my life. And I'm only in Indonesia once. Is there a "right" thing to do here? 
-        </p>
-        <hr>
-        <p>
-        There's a violent side to the culture here that I'm learning more about. This one's weird. I read about it in Alfred Wallace's book about traveling through Indonesia in the 1800s. 
+        Last of the idiosyncrasies. I asked the University students about the most recent presidential election here. I wanted to know why the current president, who is deeply unpopular at the moment (approval ratings being compared to Trump's), was elected with almost 60% of the popular vote just a year and a half ago. They told me he ran Tik Tok ads that made him look "cute" and "huggable," and that the population of Indonesia voted for him out of pity because he had run for president twice before and lost both times. They wanted to give him a "chance." 
         </p>
         <p>
-          "[The Indonesian's] great characteristic is impassiveness and reserve... [But when he runs amok] 'Amok! Amok!' resounds through the streets... He rushes madly forward, kills all he can... and dies, overwhelmed by numbers..."
+        I just can't understand that. My sample size for this information is admittedly small. But I'm yet to hear information that contradicts what they told me.
         </p>
         <p>
-        It's as if the harmonious, passive facade here falls away and lets out the aggression that you never see on the surface here. Wallace describes it as an almost suicidal will, driven by shame or grief in very specific situations. 
+        So I'm at a loss right now. It's early into this so I think I'll understand things better by the end of it. But, living in a place really confronts you with the whole culture, not just the prettiest parts. 
         </p>
+        <img class="post-photo" src="photos/football.jpg" alt="Placeholder example photo">
+        <p class="post-photo-caption">Happy Homecoming.</p>
         <p>
-        And the strangest thing is that I can see it here even today. At sports games, fans often get in fights that leave people dead. I saw that "amok" frenzy in the line waiting for a soccer game once, and it scared me. I was told not to go out late at night because high school kids (my school included) meet for fights in abandoned fields and stab each other to death. And, when we watched a protest in Surakarta, I knew I could only watch from my hotel window. As a foreigner, especially, you stand out as an immediate target if people turn violent here. You're the only one around who isn't like them, and that makes you a threat. 
-        </p>
-        <p>
-        So it's strange to see this culture's relationship with violence. Everyone has angry emotions in them, but here it's not socially acceptable to express them. I wonder if American culture, which allows that anger to be shown on the surface, prevents violence that would otherwise happen if those feelings were bottled up inside.
+        It rained here today for the first time this season. School was cancelled because the power went out. 
         </p>
       `
   },
