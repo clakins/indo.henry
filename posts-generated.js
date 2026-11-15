@@ -8,18 +8,18 @@ posts.push({
   title: "Time Away",
   tags: [],
   html: `
-<img class="post-photo" src="photos/Pasted-image-20261115145326.png" alt="Celebrating Samir's Birthday in Semarang">
+<img class="post-photo" src="photos/Pasted-image-20261115145326.jpg" alt="Celebrating Samir's Birthday in Semarang">
 <p class="post-photo-caption">Celebrating Samir's Birthday in Semarang</p>
 <p>Its almost been three months. I made an easier method for posting my blog files, so I hope it motivates me to update this more. Here are some thoughts I've had over the past few weeks. Interspersed with photos from my trip last weekend to Surakarta (Solo).</p>
 <p><strong>Teaching (Good)</strong></p>
 <p>I'm starting to remember why I like teaching. And that's unquestionably the connections with the students. I really haven't been in a place to explore this since my Common App essay years ago where I talked about the human connection I felt while teaching.</p>
 <p>For the first few weeks here, I felt like I wasn't getting anywhere with my students. The school system is so strict here that I don't think kids  feel comfortable showing personality or any attitude. They just stay in their lane. When  students all act the same, it's really hard to connect with anyone individually. So I'm slowly trying to get past that and get through to them.</p>
-<img class="post-photo" src="photos/Pasted-image-20261115145553.png" alt="Students at a Study/Work Abroad Presentation I Gave">
+<img class="post-photo" src="photos/Pasted-image-20261115145553.jpg" alt="Students at a Study/Work Abroad Presentation I Gave">
 <p class="post-photo-caption">Students at a Study/Work Abroad Presentation I Gave</p>
 <p>I'm really lucky to have the Advanced English Club. It finally got off the ground after the other teachers dragged their feet in helping me get it started. Last week, I showed them Semantle and now they're all addicted. They want to watch American movies and listen to American songs.</p>
 <p>Honestly, I was hoping for that excitement in my classes too, but it hasn't come. There's a lot of apathy here. But if I get 20 hours a week of apathy and 1 hour of advanced club excitement, I think that's a lot better than nothing.</p>
 <p>So it's slow going but I'm starting to catch a glimpse of what I loved so much at Emerald Bay.</p>
-<img class="post-photo" src="photos/Pasted-image-20261115145819.png" alt="Sate lunch in Surakarta">
+<img class="post-photo" src="photos/Pasted-image-20261115145819.jpg" alt="Sate lunch in Surakarta">
 <p class="post-photo-caption">Sate lunch in Surakarta</p>
 <p><strong>Teaching (BAD)</strong></p>
 <p>This is a school system that is failing its students. No matter what people here say, what I see tells me that students are not the priority.</p>
@@ -29,24 +29,24 @@ posts.push({
 <p>A school system that does this puts administration and decorum above teaching. I find it unacceptable that learning is sacrificed to appease power dynamics and bloated admin egos. If there is one thing that I believe is <strong>wrong</strong> here and something that I do not stand for, it is this. In any country, in any culture, this would be a failure of a system.</p>
 <p><strong>Complications</strong></p>
 <p>There are a lot of personal things I've been thinking about. I just finished <em>Lonesome Dove</em> and it made me realize how complicated life is these days. It's hard for me to imagine a world before computers, where anything you wanted to do had to be physically in front of you. Now, there are pretty much endless possibilities to fill your free time. And I loved the idea of that. There are a million things I want to do and learn and I can access all of them through my phone and my computer.</p>
-<img class="post-photo" src="photos/Pasted-image-20261115145922.png" alt="A prop car in front of our hotel.">
+<img class="post-photo" src="photos/Pasted-image-20261115145922.jpg" alt="A prop car in front of our hotel.">
 <p class="post-photo-caption">A prop car in front of our hotel.</p>
 <p>I think that lack of limits has overwhelmed me. Because there are so many things to do, I spend more time thinking about which of them to try first than I do actually tackling any of them. I get really stuck in overthinking and decision paralysis, and I think my computer just reinforces that habit.</p>
 <p>So that's the issue I'm working to better understand, and I'm curious how other people are trying to solve it. It's taking me a lot of effort to draw myself away from the opportunities and focus on less things. It feels like I'm giving something up and losing a chance. What am I really losing if I was never using that chance anyway?</p>
 <p>This had me thinking about money too. My Karate teacher told me that he was unhappiest when he was richest. He said that having more money means having more things to spend it on. And the more things you can spend your money on, the more stress and decision fatigue it causes you. I read somewhere that the average person living today has 100 million times more choices available to make than someone who lives pre-Industrial Revolution. And for all the benefits of that choice and freedom, it means I spend a lot more time thinking than I would like. There must be a balance somewhere of being rich enough to live comfortably but poor enough to have limits. I don't know how to make that happen. But, I worry that a well-paying job brings stress and complications I don't necessarily want. Is that what charity is for?</p>
 <p>So these days I'm thinking about less. Less choices, less opportunity, less analysis. So far, I have no idea what to do with this, but it's on my mind.</p>
-<img class="post-photo" src="photos/Pasted-image-20261115150137.png" alt="Chairman Mao at an antique store.">
+<img class="post-photo" src="photos/Pasted-image-20261115150137.jpg" alt="Chairman Mao at an antique store.">
 <p class="post-photo-caption">Chairman Mao at an antique store.</p>
 <p><strong>Resistance</strong></p>
 <p>Am I resisting this place? I sit in my room a lot. And I like it. I watch movies I want to watch. I learn about things that interest me. I don't want to go out and try a ton of new foods. I don't want to go meet a ton of new people. I have time to relax and do what I want. Is there something wrong with that? The problem I see is that is that I can sit at home and work on myself at any time in my life. And I'm only in Indonesia once. Is there a "right" thing to do here?</p>
-<img class="post-photo" src="photos/Pasted-image-20261115150040.png" alt="Meeting the former president as he starts to plan his re-election campaign.">
+<img class="post-photo" src="photos/Pasted-image-20261115150040.jpg" alt="Meeting the former president as he starts to plan his re-election campaign.">
 <p class="post-photo-caption">Meeting the former president as he starts to plan his re-election campaign.</p>
 <p><strong>Violence</strong></p>
 <p>There's a violent side to the culture here that I'm learning more about. This one's weird. I read about it in Alfred Wallace's book about traveling through Indonesia in the 1800s.</p>
 <p>"\\[The Indonesian's] great characteristic is impassiveness and reserve... \\[But when he runs amok] 'Amok! Amok!' resounds through the streets... He rushes madly forward, kills all he can... and dies, overwhelmed by numbers..."</p>
 <p>It's as if the harmonious, passive facade here falls away and lets out the aggression that you never see on the surface here. Wallace describes it as an almost suicidal will, driven by shame or grief in very specific situations.</p>
 <p>And the strangest thing is that I can see it here even today. At sports games, fans often get in fights that leave people dead. I saw that "amok" frenzy in the line waiting for a soccer game once, and it scared me. I was told not to go out late at night because high school kids (my school included) meet for fights in abandoned fields and stab each other to death. And, when we watched a protest in Surakarta, I knew I could only watch from my hotel window. As a foreigner, especially, you stand out as an immediate target if people turn violent here. You're the only one around who isn't like them, and that makes you a threat.</p>
-<video class="post-photo" controls preload="metadata" src="photos/0B98DE01-8DC7-410B-A7F5-C0F56C3B4942-Copy.mov"></video>
+<video class="post-photo" controls preload="metadata" src="photos/0B98DE01-8DC7-410B-A7F5-C0F56C3B4942-Copy.mp4"></video>
 <p class="post-photo-caption">Anti-Government Protests.</p>
 <p>So it's strange to see this culture's relationship with violence. Everyone has angry emotions in them, but here it's not socially acceptable to express them. I wonder if American culture, which allows that anger to be shown on the surface, prevents violence that would otherwise happen if those feelings were bottled up inside.</p>
 `

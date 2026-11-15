@@ -6,12 +6,13 @@
 #   1. Reads every .md note in the notes folder (only those marked draft: false)
 #   2. Pulls the title + date from the note's properties
 #   3. Converts the text, photos, videos and captions into post HTML
-#   4. Copies (and shrinks) any photos you used into /photos
+#   4. Copies the photos/videos you used into /photos (big photos are shrunk;
+#      if you made a converted copy, e.g. photo.jpg next to photo.png, it is used instead)
 #   5. Writes posts-generated.js, which the site loads after posts.js
 #
 # Your old posts in posts.js are untouched. Notes are added alongside them.
 
-param([string]$NotesDir = "", [string]$MediaDir = "")
+param([string]$NotesDir = "")
 
 # ===================== SETTINGS =====================
 $siteDir = $PSScriptRoot
@@ -20,16 +21,12 @@ $siteDir = $PSScriptRoot
 $vaultRoot = "C:\Users\photo\Documents\Henry's Sync Vault"
 if ([string]::IsNullOrWhiteSpace($NotesDir)) { $NotesDir = Join-Path $vaultRoot "Logs\Blog Posts" }
 
-# Photos you paste into a note are found by name: first inside the blog folder,
-# then anywhere else in the vault (so your normal Obsidian attachment settings
-# keep working). Nothing is published unless a post actually uses it.
-if ([string]::IsNullOrWhiteSpace($MediaDir)) { $MediaDir = $vaultRoot }
-
 $photosDir   = Join-Path $siteDir "photos"
 $outFile     = Join-Path $siteDir "posts-generated.js"
 $maxEdge     = 1600      # photos are shrunk so the longest side is at most this many pixels
 $jpegQuality = 85
-$resizeBytes = 1500000   # JPEGs under ~1.5 MB and under max size are copied as-is
+$resizeBytes = 1500000   # photos over ~1.5 MB get re-compressed; smaller ones are copied as-is
+# Pasted images are usually PNGs, which are huge for photos. Big PNGs are converted to JPEG.
 
 $imgExt = @('.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg')
 $vidExt = @('.mp4', '.webm', '.mov', '.m4v')
@@ -120,19 +117,22 @@ function Convert-Inline([string]$s) {
 }
 
 # ---------- find a photo/video, copy it into /photos, return its web path ----------
-function Save-Resized([string]$srcPath, [string]$destPath, [string]$ext, [long]$length) {
+function Save-Resized([string]$srcPath, [string]$destPath, [string]$ext, [long]$length, [bool]$asJpeg) {
     Add-Type -AssemblyName System.Drawing
     $img = [System.Drawing.Image]::FromFile($srcPath)
     try {
         $longest = [Math]::Max($img.Width, $img.Height)
         $small = ($longest -le $maxEdge)
-        if ($small -and ($ext -eq '.png' -or $length -le $resizeBytes)) {
+        if ($small -and -not $asJpeg -and ($ext -eq '.png' -or $length -le $resizeBytes)) {
             Copy-Item -LiteralPath $srcPath -Destination $destPath -Force
             return
         }
         # phones store rotation in a tag; apply it so photos aren't sideways
         if ($img.PropertyIdList -contains 274) {
-            $orient = [int]$img.GetPropertyItem(274).Value[0]
+            # the value is 1-8 stored in 2 bytes; take the larger byte so byte order doesn't matter
+            $ov = $img.GetPropertyItem(274).Value
+            $orient = [int]$ov[0]
+            if ($ov.Length -ge 2 -and [int]$ov[1] -gt $orient) { $orient = [int]$ov[1] }
             if ($orient -eq 3) { $img.RotateFlip([System.Drawing.RotateFlipType]::Rotate180FlipNone) }
             elseif ($orient -eq 6) { $img.RotateFlip([System.Drawing.RotateFlipType]::Rotate90FlipNone) }
             elseif ($orient -eq 8) { $img.RotateFlip([System.Drawing.RotateFlipType]::Rotate270FlipNone) }
@@ -149,9 +149,10 @@ function Save-Resized([string]$srcPath, [string]$destPath, [string]$ext, [long]$
             $g.InterpolationMode = [System.Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic
             $g.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::HighQuality
             $g.PixelOffsetMode = [System.Drawing.Drawing2D.PixelOffsetMode]::HighQuality
+            if ($asJpeg) { $g.Clear([System.Drawing.Color]::White) }   # flatten transparency onto white
             $g.DrawImage($img, 0, 0, $nw, $nh)
             $g.Dispose()
-            if ($ext -eq '.png') {
+            if ($ext -eq '.png' -and -not $asJpeg) {
                 $bmp.Save($destPath, [System.Drawing.Imaging.ImageFormat]::Png)
             } else {
                 $codec = [System.Drawing.Imaging.ImageCodecInfo]::GetImageEncoders() | Where-Object { $_.MimeType -eq 'image/jpeg' }
@@ -173,7 +174,13 @@ function Stage-Media([string]$name, [string]$kind) {
     if ($script:noteIndex.ContainsKey($key)) {
         $srcPath = $script:noteIndex[$key]
         $srcInfo = Get-Item -LiteralPath $srcPath
+        $ext = $srcInfo.Extension.ToLower()
         $safe = ($name -replace '[^A-Za-z0-9._-]+', '-')
+        $toJpeg = $false
+        if ($kind -eq 'image' -and $ext -eq '.png' -and $srcInfo.Length -gt $resizeBytes) {
+            $toJpeg = $true
+            $safe = [System.IO.Path]::GetFileNameWithoutExtension($safe) + '.jpg'
+        }
         $destPath = Join-Path $photosDir $safe
         $needsCopy = $true
         if (Test-Path -LiteralPath $destPath) {
@@ -190,14 +197,17 @@ function Stage-Media([string]$name, [string]$kind) {
                 if ($srcInfo.Length -gt 40MB) { Warn "$name is $sizeMB MB. That is big for a web page; consider compressing it." }
                 Copy-Item -LiteralPath $srcPath -Destination $destPath -Force
             } else {
-                $ext = $srcInfo.Extension.ToLower()
                 $done = $false
                 if ($ext -eq '.jpg' -or $ext -eq '.jpeg' -or $ext -eq '.png') {
                     try {
-                        Save-Resized $srcPath $destPath $ext $srcInfo.Length
+                        Save-Resized $srcPath $destPath $ext $srcInfo.Length $toJpeg
                         $done = $true
                     } catch {
                         Warn "Could not shrink $name ($($_.Exception.Message)). Copied the original instead."
+                        if ($toJpeg) {
+                            $safe = ($name -replace '[^A-Za-z0-9._-]+', '-')
+                            $destPath = Join-Path $photosDir $safe
+                        }
                     }
                 }
                 if (-not $done) { Copy-Item -LiteralPath $srcPath -Destination $destPath -Force }
@@ -230,6 +240,21 @@ function Convert-Embed([string]$target, [string]$altText) {
     try { $name = [uri]::UnescapeDataString($name) } catch { }
     $name = [System.IO.Path]::GetFileName($name.Replace('\', '/')).Trim()
     $ext = [System.IO.Path]::GetExtension($name).ToLower()
+
+    # If you converted a file yourself (photo.png -> photo.jpg, clip.mov -> clip.mp4) and the
+    # converted copy sits in your notes folder, the converted copy is used automatically.
+    # The note can keep pointing at the old name.
+    $swap = @{ '.png' = @('.jpg', '.jpeg'); '.heic' = @('.jpg', '.jpeg'); '.mov' = @('.mp4', '.m4v') }
+    if ($swap.ContainsKey($ext)) {
+        $stem = [System.IO.Path]::GetFileNameWithoutExtension($name)
+        foreach ($e in $swap[$ext]) {
+            if ($script:noteIndex.ContainsKey(($stem + $e).ToLower())) {
+                $name = $stem + $e
+                $ext = $e
+                break
+            }
+        }
+    }
 
     $kind = $null
     if ($imgExt -contains $ext) { $kind = 'image' }
@@ -382,19 +407,9 @@ if (-not (Test-Path -LiteralPath $NotesDir)) {
 }
 
 # index every file in the notes folder so photos can be found by name
-Get-ChildItem -LiteralPath $NotesDir -Recurse -File | ForEach-Object {
+Get-ChildItem -LiteralPath $NotesDir -Recurse -File -ErrorAction SilentlyContinue | ForEach-Object {
     $k = $_.Name.ToLower()
     if (-not $script:noteIndex.ContainsKey($k)) { $script:noteIndex[$k] = $_.FullName }
-}
-# ...then the rest of the vault (hidden folders like .obsidian/.trash are ignored)
-if ((Test-Path -LiteralPath $MediaDir) -and ($MediaDir -ne $NotesDir)) {
-    Get-ChildItem -LiteralPath $MediaDir -Recurse -File | ForEach-Object {
-        $relPath = $_.FullName.Substring($MediaDir.Length)
-        if ($relPath -notmatch '[\\/]\.') {
-            $k = $_.Name.ToLower()
-            if (-not $script:noteIndex.ContainsKey($k)) { $script:noteIndex[$k] = $_.FullName }
-        }
-    }
 }
 # ...and everything already in /photos
 if (Test-Path -LiteralPath $photosDir) {
@@ -403,7 +418,7 @@ if (Test-Path -LiteralPath $photosDir) {
     }
 }
 
-$noteFiles = @(Get-ChildItem -LiteralPath $NotesDir -Recurse -File -Filter '*.md' | Sort-Object Name)
+$noteFiles = @(Get-ChildItem -LiteralPath $NotesDir -Recurse -File -Filter '*.md' -ErrorAction SilentlyContinue | Sort-Object Name)
 $built = 0
 $drafts = 0
 $usedIds = @{}
