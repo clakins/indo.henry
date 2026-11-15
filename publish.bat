@@ -1,5 +1,8 @@
 @echo off
 cd /d "%~dp0"
+echo Building posts from Obsidian notes...
+powershell -NoProfile -ExecutionPolicy Bypass -File build-posts.ps1
+echo.
 echo Scanning for new media files...
 powershell -NoProfile -ExecutionPolicy Bypass -File generate-media.ps1
 echo.
