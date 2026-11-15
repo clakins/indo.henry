@@ -20,7 +20,7 @@ $siteDir = $PSScriptRoot
 # "notes" NEXT TO your site folder (outside the git repo, so drafts and
 # full-size originals never get uploaded to GitHub). To use a folder in
 # your main Obsidian vault instead, replace the path below, e.g.
-#   $NotesDir = "C:\Users\photo\Documents\MyVault\Blog"
+#   $NotesDir = "C:\Users\photo\Documents\Henry's Sync Vault\Logs\Blog Posts"
 if ([string]::IsNullOrWhiteSpace($NotesDir)) {
     $NotesDir = [System.IO.Path]::GetFullPath((Join-Path $siteDir "..\notes"))
 }
