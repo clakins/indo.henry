@@ -21,12 +21,6 @@ posts.push({
 <p>So it's slow going but I'm starting to catch a glimpse of what I loved so much at Emerald Bay.</p>
 <img class="post-photo" src="photos/Pasted-image-20261115145819.jpg" alt="Sate lunch in Surakarta">
 <p class="post-photo-caption">Sate lunch in Surakarta</p>
-<p><strong>Teaching (BAD)</strong></p>
-<p>This is a school system that is failing its students. No matter what people here say, what I see tells me that students are not the priority.</p>
-<p>Last week, all teachers were called into a mandatory meeting to discuss plans for next semester. This meeting was scheduled for 12:30, during a regular class period when teachers were supposed to be teaching. When I asked if the students were told that their teachers weren't going to show up, I was told that "we don't tell them because we want them to stay in class until the final bell rings at 2pm." Meaning students were expected to wait an hour and a half for teachers that were never coming.</p>
-<p>The meeting was supposed to end at 2pm, but continued until well past 3. This meant that half a dozen students who were scheduled for practice job interviews that day (required to wear black tie suits and be ready at 2pm) waited an hour for their teachers on for them to tell them the interviews were cancelled.</p>
-<p>All of this was planned days in advance and students were told nothing.</p>
-<p>A school system that does this puts administration and decorum above teaching. I find it unacceptable that learning is sacrificed to appease power dynamics and bloated admin egos. If there is one thing that I believe is <strong>wrong</strong> here and something that I do not stand for, it is this. In any country, in any culture, this would be a failure of a system.</p>
 <p><strong>Complications</strong></p>
 <p>There are a lot of personal things I've been thinking about. I just finished <em>Lonesome Dove</em> and it made me realize how complicated life is these days. It's hard for me to imagine a world before computers, where anything you wanted to do had to be physically in front of you. Now, there are pretty much endless possibilities to fill your free time. And I loved the idea of that. There are a million things I want to do and learn and I can access all of them through my phone and my computer.</p>
 <img class="post-photo" src="photos/Pasted-image-20261115145922.jpg" alt="A prop car in front of our hotel.">
