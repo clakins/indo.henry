@@ -38,8 +38,8 @@ posts.push({
 <p>So I'm going to go live in a big city for a while and get it out of my system. And then I'm moving to a small town and getting a big house and a lot of land on the outskirts. And hopefully there's a river near it. I told someone that my dream life is "living in a farmhouse that is constantly needing to be fixed."</p>
 <img class="post-photo" src="photos/Pasted-image-20261125211737.jpg" alt="Some temple thing (we saw three of them and all the names of them blended together, sorry)">
 <p class="post-photo-caption">Some temple thing (we saw three of them and all the names of them blended together, sorry)</p>
-<p>I also watched "The Virgin Suicides" and I think it's in my top five movies now. I remember liking the book too when I read it. Here's a quote from the book that made it into the movie:<br>
-	"They knew everything about us, and we couldn’t fathom them at all"</p>
+<p>I also watched "The Virgin Suicides" and I think it's in my top five movies now. I remember liking the book too when I read it. Here's a quote from the book that made it into the movie:</p>
+<p><em>"They knew everything about us, and we couldn’t fathom them at all"</em></p>
 <p>And I finished another book this week. It's called "The Hidden Force" and it's complete crap and I don't recommend it. The 1800s equivalent of a booktok romance with a bunch of people cheating on each other. But it's set in Java and talks a lot about the culture here. And damn if it doesn't sound super familiar. There's a bunch of mysticism and weird happenings that just get ascribed to "spirits." Everyone says yes and agrees and then goes around talking behind someone's back. And the respect for authority trumps everything else. So I'm done reading historical books about Indonesia because everything that happens in them is what I'm living through right now and I don't need any more of that.</p>
 `
 });
