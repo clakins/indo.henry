@@ -4,9 +4,8 @@
 // exists here.
 
 const media = [
-  { id: "jumpintime.mp4", file: "media/jumpintime.mp4", type: "video", timestamp: "2026-11-27T13:11:57", title: "" },
-  { id: "teacherday.mp4", file: "media/teacherday.mp4", type: "video", timestamp: "2026-11-27T13:38:53", title: "" },
-{ id: "jumpintime", file: "media/jumpintime.mp4", type: "video", timestamp: "2026-11-27T13:15", title: "Rediscovered Windows Media Player Visualizations and my childhood came back to me." },
+{ id: "jumpintime.mp4", file: "media/jumpintime.mp4", type: "video", timestamp: "2026-11-27T13:11:57", title: "" },
+  { id: "teacherday.mp4", file: "media/teacherday.mp4", type: "video", timestamp: "2026-11-27T13:38:53", title: "Rediscovered Windows Media Player Visualizations and my childhood came back to me." },
 {
     id: "gta6",
     timestamp: "2026-11-27T13:12",
@@ -19,7 +18,6 @@ const media = [
     type: "note",
     text: "Anyone else watch that Bills game today? Put it on my laptop and had teachers asking me why I looked so stressed."
 },  
-{ id: "teacherday", file: "media/teacherday.mp4", type: "video", timestamp: "2026-11-27T13:10", title: "Teacher's Day celebrations at my school." },
 {
     id: "octobersun",
     timestamp: "2026-10-12T21:16:00",
