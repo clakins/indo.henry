@@ -4,17 +4,27 @@
 // exists here.
 
 const media = [
+  { id: "jumpintime.mp4", file: "media/jumpintime.mp4", type: "video", timestamp: "2026-11-27T13:11:57", title: "" },
+  { id: "teacherday.mp4", file: "media/teacherday.mp4", type: "video", timestamp: "2026-11-27T13:38:53", title: "" },
+{ id: "jumpintime", file: "media/jumpintime.mp4", type: "video", timestamp: "2026-11-27T13:15", title: "Rediscovered Windows Media Player Visualizations and my childhood came back to me." },
 {
-    id: "69",
-    timestamp: "2026-10-26T21:16:58",
+    id: "gta6",
+    timestamp: "2026-11-27T13:12",
     type: "note",
-    text: "Day 69, nice."
-  },  
+    text: "We've booked a room at a Playstation Gaming center in Semarang to play three hours of GTA VI tonight. It will feel nice to be back in America."
+},  
+{
+    id: "bills",
+    timestamp: "2026-11-27T13:12",
+    type: "note",
+    text: "Anyone else watch that Bills game today? Put it on my laptop and had teachers asking me why I looked so stressed."
+},  
+{ id: "teacherday", file: "media/teacherday.mp4", type: "video", timestamp: "2026-11-27T13:10", title: "Teacher's Day celebrations at my school." },
 {
     id: "octobersun",
     timestamp: "2026-10-12T21:16:00",
     type: "note",
-    text: "Do you know the feeling I mean when I say 'October sun?' I hope so."
+    text: "Do you know the feeling I mean when I say 'October sun?' It isn't here."
   },  
   {
     id: "lessonlearned",
