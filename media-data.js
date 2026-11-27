@@ -4,8 +4,8 @@
 // exists here.
 
 const media = [
-{ id: "jumpintime.mp4", file: "media/jumpintime.mp4", type: "video", timestamp: "2026-11-27T13:11:57", title: "" },
-  { id: "teacherday.mp4", file: "media/teacherday.mp4", type: "video", timestamp: "2026-11-27T13:38:53", title: "Rediscovered Windows Media Player Visualizations and my childhood came back to me." },
+{ id: "jumpintime.mp4", file: "media/jumpintime.mp4", type: "video", timestamp: "2026-11-27T13:11:57", title: "Rediscovered Windows Media Player Visualizations and my childhood came back to me." },
+  { id: "teacherday.mp4", file: "media/teacherday.mp4", type: "video", timestamp: "2026-11-27T13:38:53", title: "Teacher's day celebration at my school." },
 {
     id: "gta6",
     timestamp: "2026-11-27T13:12",
